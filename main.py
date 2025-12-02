@@ -6,8 +6,8 @@ import os
 
 # --- CONFIGURACIÓN ---
 ARCHIVO_JSON = 'conocimientos_bebidas.json'
-COLOR_FONDO = "#FDF5E6"       # Un tono crema/café suave
-COLOR_ACCENTO = "#6F4E37"     # Color Café
+COLOR_FONDO = "#FDF5E6"
+COLOR_ACCENTO = "#6F4E37"
 COLOR_TEXTO = "#3E2723"
 
 class SistemaExpertoBebidas:
@@ -17,7 +17,7 @@ class SistemaExpertoBebidas:
         self.root.geometry("1000x650")
         self.root.configure(bg=COLOR_FONDO)
 
-        # Opciones extraídas del PDF (Página 2)
+        # Opciones
         self.opciones_sabor = [
             "Prefiero las bebidas con un toque dulce.",
             "Me gustan más con sabor amargo"
@@ -57,28 +57,28 @@ class SistemaExpertoBebidas:
             json.dump(datos, archivo, indent=2, ensure_ascii=False)
 
     def crear_interfaz(self):
-        # Frame Izquierdo (Preguntas)
+        # Frame Izquierdo
         frame_izq = tk.Frame(self.root, bg=COLOR_FONDO, padx=30, pady=30)
         frame_izq.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
         tk.Label(frame_izq, text="PREFERENCIAS DE TU BEBIDA", font=("Helvetica", 18, "bold"), fg=COLOR_ACCENTO, bg=COLOR_FONDO).pack(anchor="w", pady=(0, 20))
 
-        # Pregunta 1: Sabor
+        # Sabor
         tk.Label(frame_izq, text="¿Qué tipo de sabor prefieres?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
         self.combo_sabor = ttk.Combobox(frame_izq, values=self.opciones_sabor, width=50, state="readonly")
         self.combo_sabor.pack(anchor="w")
 
-        # Pregunta 2: Temperatura
+        #Temperatura
         tk.Label(frame_izq, text="¿Cómo prefieres la temperatura?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
         self.combo_temp = ttk.Combobox(frame_izq, values=self.opciones_temperatura, width=50, state="readonly")
         self.combo_temp.pack(anchor="w")
 
-        # Pregunta 3: Intensidad
+        #Intensidad
         tk.Label(frame_izq, text="¿Qué tan intensa te gusta tu bebida?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
         self.combo_int = ttk.Combobox(frame_izq, values=self.opciones_intensidad, width=50, state="readonly")
         self.combo_int.pack(anchor="w")
 
-        # Pregunta 4: Leche
+        #Leche
         tk.Label(frame_izq, text="¿Qué tipo de leche prefieres?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
         self.combo_leche = ttk.Combobox(frame_izq, values=self.opciones_leche, width=50, state="readonly")
         self.combo_leche.pack(anchor="w")
@@ -91,21 +91,21 @@ class SistemaExpertoBebidas:
         tk.Button(frame_btn, text="LIMPIAR", bg="#D7CCC8", fg=COLOR_TEXTO, font=("Arial", 11), padx=15, pady=5, command=self.limpiar).pack(side=tk.LEFT)
 
 
-        # Frame Derecho (Resultados)
+        #Frame Derecho
         frame_der = tk.Frame(self.root, bg="white", padx=30, pady=30, relief="raised", borderwidth=1)
         frame_der.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=20, pady=20)
 
         tk.Label(frame_der, text="RECOMENDACIÓN", font=("Helvetica", 16, "bold"), fg=COLOR_ACCENTO, bg="white").pack(pady=(10, 5))
         
-        # Area de resultado
+        #label resultado
         self.lbl_resultado = tk.Label(frame_der, text="...", font=("Arial", 14, "bold"), fg=COLOR_TEXTO, bg="white", wraplength=350)
         self.lbl_resultado.pack(pady=10)
 
-        # Imagen
+        #Imagen
         self.lbl_imagen = tk.Label(frame_der, bg="white")
         self.lbl_imagen.pack(pady=10)
 
-        # Explicación (Oculta inicialmente)
+        #Explicación
         self.btn_explicacion = tk.Button(frame_der, text="¿Por qué esta bebida?", state="disabled", command=self.mostrar_explicacion)
         self.btn_explicacion.pack(pady=10)
         
@@ -146,7 +146,7 @@ class SistemaExpertoBebidas:
         self.lbl_explicacion.config(text="") # Ocultar explicación previa
         self.btn_explicacion.config(state="normal")
         
-        # Cargar imagen
+        #Cargar imagen
         try:
             if os.path.exists(regla["Imagen"]):
                 img = Image.open(regla["Imagen"])
