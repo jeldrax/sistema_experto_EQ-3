@@ -1,0 +1,20 @@
+[
+  {
+    "Sabor": "Prefiero las bebidas con un toque dulce.",
+    "Temperatura": "Me gusta que esté fría, algo refrescante.",
+    "Intensidad": "Me gustan las bebidas suaves, casi sin sabor fuerte.",
+    "Leche": "Me gustaría que tenga leche de almendra.",
+    "Diagnostico": "Frappé de vainilla o bebida fría a base de leche vegetal.",
+    "Explicacion": "La combinación de sabor dulce, baja intensidad y temperatura fría apunta a bebidas frescas y ligeras, ideales para personas que prefieren bebidas suaves.",
+    "Imagen": "frappe.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "La quiero caliente, como café recién hecho.",
+    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
+    "Leche": "No quiero leche en mi bebida.",
+    "Diagnostico": "Expreso doble o americano oscuro sin azúcar.",
+    "Explicacion": "Amargo + caliente + intenso coincide con bebidas como espresso, americano fuerte o café oscuro, ideales para quienes buscan energía pura.",
+    "Imagen": "espresso.jpg"
+  }
+]
