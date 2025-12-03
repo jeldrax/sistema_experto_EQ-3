@@ -1,0 +1,2375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <script>
+ var country = 'MX';
+ var isSpainOrLatamUser = true;
+ var WSLUser = null;
+ var WSLUserIsXtraSubscribed = false;
+ (function() {
+  try {
+   var cookieName = "weblogssl_user";
+   var cookies = document.cookie.split(";");
+   for (var i = 0; i < cookies.length; i++) {
+    var fragments = /^\s*([^=]+)=(.+?)\s*$/.exec(cookies[i]);
+    if (fragments[1] === cookieName) {
+     var cookie = decodeURIComponent(decodeURIComponent(fragments[2]));
+     WSLUser = JSON.parse(cookie).user;
+     WSLUserIsXtraSubscribed = 'object' === typeof WSLUser && 1 === WSLUser.xtraSubscribed;
+     break;
+    }
+   }
+  } catch (e) {}
+ })();
+</script>
+  <title>La Generación Z ha empeorado aún más el café manchado, pero ahora lo llaman &#039;dirty coffee&#039; y está de moda</title>
+<script>
+ window.WSL2 = window.WSL2 || {};
+ WSL2.config = WSL2.config || {};
+ WSL2.config.title = "La Generación Z ha empeorado aún más el café manchado, pero ahora lo llaman &#039;dirty coffee&#039; y está de moda";
+</script>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Pocos productos hay más decididamente intergeneracionales que el café. Al contrario que puede pasar con ciertos alimentos o con bebidas alcohólicas como el...">
+ <script>WSL2.config.metaDescription = "Pocos productos hay más decididamente intergeneracionales que el café. Al contrario que puede pasar con ciertos alimentos o con bebidas alcohólicas como el..."</script>
+  <meta name="news_keywords" content="Café, moda, tendencias, Mundo, Actualidad">
+   <meta name="robots" content="max-image-preview:large">
+<meta property="fb:admins" content="100000716994885">
+<meta property="fb:pages" content="41182117378">
+<meta property="fb:app_id" content="357721611901">
+<meta name="application-name" content="Directo al Paladar">
+<meta name="msapplication-tooltip" content="Recetas de cocina y gastronomía. Directo al Paladar">
+<meta name="msapplication-starturl" content="https://www.directoalpaladar.com">
+<meta name="mobile-web-app-capable" content="yes">
+                 <meta property="og:image" content="https://i.blogs.es/3a13c2/dirty-coffee-cafe-manchado/840_560.jpeg">
+      <meta property="og:title" content="La Generación Z ha empeorado aún más el café manchado, pero ahora lo llaman &#039;dirty coffee&#039; y está de moda">
+  <meta property="og:description" content="Pocos productos hay más decididamente intergeneracionales que el café. Al contrario que puede pasar con ciertos alimentos o con bebidas alcohólicas como el...">
+  <meta property="og:url" content="https://www.directoalpaladar.com/actualidad-1/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda">
+  <meta property="og:type" content="article">
+  <meta property="og:updated_time" content="2024-10-17T16:01:06Z">
+    <meta name="DC.Creator" content="Jaime de las Heras">
+  <meta name="DC.Date" content="2024-10-17">
+  <meta name="DC.date.issued" content="2024-10-17T16:01:06Z">
+  <meta name="DC.Source" content="Directo al Paladar">
+  <meta property="article:modified_time" content="2024-10-17T16:01:06Z">
+  <meta property="article:published_time" content="2024-10-17T16:01:06Z">
+  <meta property="article:section" content="actualidad-1">
+         <meta property="article:tag" content="Café">
+            <meta property="article:tag" content="moda">
+            <meta property="article:tag" content="tendencias">
+            <meta property="article:tag" content="Mundo">
+             <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://i.blogs.es/3a13c2/dirty-coffee-cafe-manchado/1366_521.jpeg"><meta name="twitter:site" content="@directopaladar"><meta name="twitter:title" content="La Generación Z ha empeorado aún más el café manchado, pero ahora lo llaman &#039;dirty coffee&#039; y está de moda"><meta name="twitter:description" content="Pocos productos hay más decididamente intergeneracionales que el café. Al contrario que puede pasar con ciertos alimentos o con bebidas alcohólicas como el..."><meta name="twitter:creator" content="@jaimedlasheras">         <script>
+  window.dataLayer = [{"site":"DAP","siteSection":"postpage","vertical":"Foodies","amp":"no","postId":113349,"postUrl":"https:\/\/www.directoalpaladar.com\/actualidad-1\/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda","publishedDate":"2024-10-17","modifiedDate":"2024-10-17T16:01","categories":["actualidad-1"],"tags":["cafe","moda","tendencias","mundo"],"videoContent":false,"partner":false,"blockLength":9,"author":"jaime de las heras","postType":"normal","linksToEcommerce":"none","ecomPostExpiration":"not_classified","mainCategory":"actualidad-1","postExpiration":null,"wordCount":441}];
+ window.dataLayer[0].visitor_country = country;
+ </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L3X96ZX03D"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ window.WSL2 = window.WSL2 || {};
+ window.WSL2.pageViewParams = {"site":"DAP","site_section":"postpage","vertical":"Foodies","amp":"no","visitor_country":"MX","content_id":113349,"post_url":"https:\/\/www.directoalpaladar.com\/actualidad-1\/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda","content_publication_date":"2024-10-17","modified_date":"2024-10-17T16:01","page_category":"actualidad-1","content_tags":"cafe,moda,tendencias,mundo","has_video_content":false,"global_branded":false,"block_length":9,"content_author_id":"jaime de las heras","post_type":"normal","links_to_ecommerce":"none","ecompost_expiration":"not_classified","mainCategory":"actualidad-1","post_expiration":null,"word_count":441};
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-L3X96ZX03D', { send_page_view: false });
+  gtag('event', 'page_view', {"site":"DAP","site_section":"postpage","vertical":"Foodies","amp":"no","visitor_country":"MX","content_id":113349,"post_url":"https:\/\/www.directoalpaladar.com\/actualidad-1\/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda","content_publication_date":"2024-10-17","modified_date":"2024-10-17T16:01","page_category":"actualidad-1","content_tags":"cafe,moda,tendencias,mundo","has_video_content":false,"global_branded":false,"block_length":9,"content_author_id":"jaime de las heras","post_type":"normal","links_to_ecommerce":"none","ecompost_expiration":"not_classified","mainCategory":"actualidad-1","post_expiration":null,"word_count":441});
+</script>
+ <script>
+ window.WSL2 = window.WSL2 || {};
+ WSL2.config = WSL2.config || {};
+ WSL2.config.enableDidomiOverlay = 0;
+</script>
+
+                       
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+ {"@context":"https:\/\/schema.org","@type":"Article","mainEntityOfPage":"https:\/\/www.directoalpaladar.com\/actualidad-1\/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda","name":"La Generación Z ha empeorado aún más el café manchado, pero ahora lo llaman 'dirty coffee' y está de moda","headline":"La Generación Z ha empeorado aún más el café manchado, pero ahora lo llaman 'dirty coffee' y está de moda","articlebody":"Pocos productos hay más decididamente intergeneracionales que el café. Al contrario que puede pasar con ciertos alimentos o con bebidas alcohólicas como el vino o determinados destilados, el café parece unir sensibilidades a lo largo y ancho del mundo y, lo que es más raro, a generaciones completamente separadas entre sí. Intentar que un Gen Z que se ha criado entre Monster y Prime empiece a amar un vino gran reserva como si fuera su abuelo boomer suena a distopía, pero el café, curiosamente, no vive en el mismo limbo. Sí cambian los términos, claro. Si el millenial (aquellos miembros de los años ochenta en adelante) se convirtió en el arquetipo del consumidor de Starbucks, la Gen Z (los nacidos a finales de la década de 1990) son, a priori, carne de cafetería de especialidad. Lejos quedan los boomers, aquellos hijos de la década de sesenta, que se criaron entre café torrefactos, achicoria y cafés espressos requemados. De todos ellos se extrae mucha literatura y, como es lógico, miles de nombres que han ido cambiando con los países, los años y las modas. Si el español medio –no hablamos de ejemplos como Málaga, donde pedir un café es una odisea– creció entre café solo y café con leche, sus hijos ya empezaron a coquetear con términos como latte macchiato o caffé macchiato, que no son más que evoluciones starbuckianas de la leche manchada o el café manchado, solo que como las habría llamado un italiano, que siempre lo hace más moderno, Pero ahora los Gen Z están descubriendo un más allá en las cafeterías de especialidad con modas que vienen de Asia, donde el sabor demasiado intenso del café no es igual de apreciado que sucede en Europa o Estados Unidos, cunas de este tipo de cafeterías. Por eso, la moda del dirty coffee está ganando adeptos. Tanto como para que el hashtag en Instagram se cuente por varias decenas de miles, pero ¿qué es un dirty coffee? Literalmente se traduciría como &#039;café sucio&#039; y no es otra cosa que verter un espresso caliente sobre un vaso con leche fría. &amp;nbsp; No hay que mezclarlo, matiz importante. Al contrario de lo que sucedería con lo que no deja de ser una leche manchada, el dirty coffee está concebido para, en teoría, ser bebido así, sin revolver, para que se aprecie tanto el café como la leche. De nuevo, reinventar la rueda para cambiar el nombre a algo que existía, hacerlo tendencia y conseguir cobrar siete euros por un café con leche fría. Pero sin revolver, claro. Imágenes | Instagram drew1__1drew En DAP | Recetas con café En DAP | Cómo hacer un buen café","datePublished":"2024-10-17T16:01:06Z","dateModified":"2024-10-17T16:01:06Z","description":"Pocos productos hay más decididamente intergeneracionales que el café. Al contrario que puede pasar con ciertos alimentos o con bebidas alcohólicas como el...","publisher":{"@type":"Organization","name":"Directo al Paladar","url":"https:\/\/www.directoalpaladar.com","sameAs":["https:\/\/x.com\/directopaladar","https:\/\/www.facebook.com\/pages\/Directo-al-paladar\/41182117378","https:\/\/www.youtube.com\/c\/directoalpaladar","https:\/\/instagram.com\/directopaladar","https:\/\/es.pinterest.com\/directopaladar","https:\/\/www.tiktok.com\/@directopaladar"],"logo":{"@type":"ImageObject","url":"https:\/\/img.weblogssl.com\/css\/directoalpaladar\/p\/amp-2022\/images\/logo.png?v=1764687409","width":600,"height":60},"Parentorganization":"Webedia"},"image":{"@type":"ImageObject","url":"https:\/\/i.blogs.es\/3a13c2\/dirty-coffee-cafe-manchado\/1200_900.jpeg","width":1200,"height":900},"author":[{"@type":"Person","name":"Jaime de las Heras","url":"https:\/\/www.directoalpaladar.com\/autor\/jaime-de-las-heras"}],"url":"https:\/\/www.directoalpaladar.com\/actualidad-1\/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda","thumbnailUrl":"https:\/\/i.blogs.es\/3a13c2\/dirty-coffee-cafe-manchado\/1200_900.jpeg","articleSection":"Actualidad","creator":"Jaime de las Heras","keywords":"Café, moda, tendencias, Mundo, Actualidad"}
+</script>
+           <link rel="preconnect" href="https://i.blogs.es">
+<link rel="shortcut icon" href="https://img.weblogssl.com/css/directoalpaladar/p/common/favicon.ico" type="image/ico">
+<link rel="apple-touch-icon" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="https://img.weblogssl.com/css/directoalpaladar/p/common/apple-touch-icon-57-precomposed.png">
+ <link rel="preconnect" href="https://static.criteo.net/" crossorigin>
+ <link rel="dns-prefetch" href="https://static.criteo.net/">
+ <link rel="preconnect" href="https://ib.adnxs.com/" crossorigin>
+ <link rel="dns-prefetch" href="https://ib.adnxs.com/">
+ <link rel="preconnect" href="https://bidder.criteo.com/" crossorigin>
+ <link rel="dns-prefetch" href="https://bidder.criteo.com/">
+     <link rel="preload" as="image" fetchpriority="high" type="image/jpeg" href="https://i.blogs.es/3a13c2/dirty-coffee-cafe-manchado/500_333.jpeg" media="(max-width: 500px)">
+  <link rel="preload" as="image" fetchpriority="high" type="image/jpeg" href="https://i.blogs.es/3a13c2/dirty-coffee-cafe-manchado/1366_910.jpeg" media="(min-width: 768px) and (max-width: 1199px)">
+  <link rel="preload" as="image" fetchpriority="high" type="image/jpeg" href="https://i.blogs.es/3a13c2/dirty-coffee-cafe-manchado/1920_1280.jpeg" media="(min-width: 1200px)">
+  <link rel="preload" as="style" href="https://img.weblogssl.com/css/directoalpaladar/p/thewatmag-d/main.css?v=1764687409">
+   <link rel="alternate" type="application/rss+xml" title="Directoalpaladar - todas las noticias" href="/index.xml">
+   <link rel="image_src" href="https://i.blogs.es/3a13c2/dirty-coffee-cafe-manchado/75_75.jpeg">
+      <link rel="canonical" href="https://www.directoalpaladar.com/actualidad-1/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda">
+   
+    <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&amp;display=swap" as="style" type="text/css" crossorigin="anonymous">
+  <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" as="style" type="text/css" crossorigin="anonymous">
+ <script async src="https://launcher.spot.im/spot/sp_elHFZQu4" data-social-reviews="true"></script>
+   <link rel="amphtml" href="https://www.directoalpaladar.com/actualidad-1/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda/amp" >
+  <link rel="stylesheet" type="text/css" href="https://img.weblogssl.com/css/directoalpaladar/p/thewatmag-d/main.css?v=1764687409">
+ 
+     </head>
+<body class="js-desktop  prod js-body  ">
+            <script >
+     var cs_ucfr = "0";
+   var _comscore = _comscore || [];
+   var configs = {c1: "2", c2: "6035191", cs_ucfr: cs_ucfr};
+   var keyword = keyword || '';
+   if(keyword) {
+    configs.options = {url_append: "comscorekw=" + keyword};
+   }
+   _comscore.push(configs);
+   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+   s.async = true;
+   s.src = "https://sb.scorecardresearch.com/cs/6035191/beacon.js";
+   el.parentNode.insertBefore(s, el);
+   </script>
+
+<script>
+ dataLayer.push({
+  contentGroup1: "post",
+  contentGroup2: "jaime de las heras",
+  contentGroup3: "actualidad-1",
+  contentGroup4: "normal",
+  contentGroup5: "241017",
+ });
+</script>
+ <script>let viewsOnHost = +sessionStorage.getItem("upv") || 0;
+viewsOnHost += 1;
+sessionStorage.setItem("upv", viewsOnHost);
+
+let sessionsOnHost = +localStorage.getItem("sessionsOnHost") || 0;
+if (viewsOnHost === 1) {
+  sessionsOnHost += 1;
+}
+localStorage.setItem("sessionsOnHost", sessionsOnHost);
+</script>
+  <div id="publicidad"></div>
+  <script>
+    function hash(string) {
+      const utf8 = new TextEncoder().encode(string);
+      return crypto.subtle.digest('SHA-256', utf8).then((hashBuffer) => {
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        return hashArray.map((bytes) => bytes.toString(16).padStart(2, '0')).join('');
+      });
+    }
+
+    const populateHashedEmail = () => {
+      const loggedin = WSL2.User.isUserLoggedIn();
+      if (loggedin) {
+        const userEmail = WSL2.User.getUserEmail();
+        hash(userEmail).then((hashedEmail) => {
+          jad.config.publisher.hashedId = { sha256email: hashedEmail };
+        });
+      }
+    }
+
+    WSL2.config.enablePerformanceImprovements = "0";
+    window.hasAdblocker = getComputedStyle(document.querySelector('#publicidad')).display === 'none';
+                                                                      WSL2.config.dynamicIU = "/1018282/DirectoAlPaladar/postpage";
+        window.jad = window.jad || {};
+    jad.cmd = jad.cmd || [];
+    let swrap = document.createElement("script");
+    if ('1' === WSL2.config.enablePerformanceImprovements) {
+      swrap.defer = true;
+    }
+    else {
+      swrap.async = true;
+    }
+
+    const jadTargetingData = {"site":"DAP","siteSection":"postpage","vertical":"Foodies","amp":"no","visitor_country":"MX","postId":113349,"postUrl":"https:\/\/www.directoalpaladar.com\/actualidad-1\/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda","publishedDate":"2024-10-17","modifiedDate":"2024-10-17T16:01","categories":["actualidad-1"],"tags":["cafe","moda","tendencias","mundo"],"videoContent":false,"partner":false,"blockLength":9,"author":"jaime de las heras","postType":"normal","linksToEcommerce":"none","ecomPostExpiration":"not_classified","mainCategory":"actualidad-1","postExpiration":null,"wordCount":441};
+          {
+      const postCreationDate = 1729180866
+      const currentDate = new Date();
+      const currentTimestamp = currentDate.getTime();
+      const postTimeStamp = new Date(postCreationDate*1000).getTime();
+      const sixDaysMilliseconds = 6 * 60 * 24 * 60 * 1000;
+      jadTargetingData["recency"] = currentTimestamp - postTimeStamp > sixDaysMilliseconds ? 'old' : 'new';
+      const currentHour = (currentDate.getUTCHours() + 2) % 24;
+      jadTargetingData["hour"] = String(currentHour).length == 1 ? '0' + currentHour : currentHour;
+      }
+        jadTargetingData["upv"] = sessionStorage.getItem("upv") || 1;
+
+    swrap.src = "https://cdn.lib.getjad.io/library/1018282/DirectoAlPaladar";
+    swrap.setAttribute("importance", "high");
+    let g = document.getElementsByTagName("head")[0];
+    const europeanCountriesCode = [
+      'AD', 'AL', 'AT', 'AX', 'BA', 'BE', 'BG', 'BY', 'CH', 'CY', 'CZ', 'DE', 'DK',
+      'EE', 'ES', 'FI', 'FO', 'FR', 'GB', 'GG', 'GI', 'GR', 'HR', 'HU', 'IE', 'IM',
+      'IS', 'IT', 'JE', 'LI', 'LT', 'LU', 'LV', 'MC', 'MD', 'ME', 'MK', 'MT', 'NL',
+      'NO', 'PL', 'PT', 'RO', 'RS', 'RU', 'SE', 'SI', 'SJ', 'SK', 'SM', 'UA', 'VA'
+    ];
+    window.WSL2 = window.WSL2 || {};
+    window.WSL2.isEuropeanVisitor = europeanCountriesCode.includes(window.country);
+    const enableCmpChanges = "1";
+    let cmpObject = {
+      includeCmp: window.WSL2.isEuropeanVisitor ? false : true,
+      name: window.WSL2.isEuropeanVisitor ? 'didomi' : 'none'
+    }
+    if (window.WSL2.isEuropeanVisitor && "1" == enableCmpChanges) {
+      cmpObject = {
+        ...cmpObject,
+        "siteId": "7bd10a97-724f-47b3-8e9f-867f0dea61c8",
+        "noticeId": "PBQC7tHr",
+        "paywall": {
+          "version": 1,
+          "clientId": "AeAcL5krxDiL6T0cdEbtuhszhm0bBH9S0aQeZwvgDyr0roxQA6EJoZBra8LsS0RstogsYj54y_SWXQim",
+          "planId": "P-9AX34065NU288404EMWKYOFI",
+          "tosUrl": "https://weblogs.webedia.es/condiciones-uso.html",
+          "touUrl": "https://weblogs.webedia.es/condiciones-uso.html",
+          "privacyUrl": "https://weblogs.webedia.es/cookies.html" ,
+          "language":  "es"
+        }
+      }
+    }
+    g.parentNode.insertBefore(swrap, g);
+    jad.cmd.push(function() {
+      jad.public.setConfig({
+        page: "/1018282/DirectoAlPaladar/postpage", 
+                  pagePositions: [
+                         'top',
+             'cen1',
+             'cen2',
+             'footer',
+             'oop',
+             'cintillo',
+             '1',
+             'inread1',
+             '2',
+             'large-sticky',
+   
+          ],
+          elementsMapping:                                                                                                        
+                                                                                 
+ {"top":"div-gpt-top","cen1":"div-gpt-cen","cen2":"div-gpt-cen2","footer":"div-gpt-bot2","oop":"div-gpt-int","cintillo":"div-gpt-int2","1":"div-gpt-lat","inread1":"div-gpt-out","2":"div-gpt-lat2","large-sticky":"div-gpt-bot3"}
+,
+          targetingOnPosition: {
+                      "top": {
+     'fold': ['atf']
+    },
+               "cen1": {
+     'fold': ['btf']
+    },
+               "cen2": {
+     'fold': ['btf']
+    },
+               "footer": {
+     'fold': ['btf']
+    },
+               "oop": {
+     'fold': ['mtf']
+    },
+               "cintillo": {
+     'fold': ['mtf']
+    },
+               "1": {
+     'fold': ['atf']
+    },
+               "inread1": {
+     'fold': ['mtf']
+    },
+               "2": {
+     'fold': ['mtf']
+    },
+               "3": {
+     'fold': ['mtf']
+    },
+               "4": {
+     'fold': ['mtf']
+    },
+               "5": {
+     'fold': ['mtf']
+    },
+               "6": {
+     'fold': ['mtf']
+    },
+               "7": {
+     'fold': ['mtf']
+    },
+               "8": {
+     'fold': ['mtf']
+    },
+               "large-sticky": {
+     'fold': ['atf']
+    },
+      
+          },
+                targeting: jadTargetingData,
+        interstitialOnFirstPageEnabled: false,
+        cmp: cmpObject,
+        wemass: {
+          targeting: {
+            page: {
+              type: jadTargetingData.siteSection ?? "",
+              content: {
+                categories: jadTargetingData.categories ?? [""],
+              },
+              article: {
+                id: jadTargetingData.postId ?? "",
+                title: WSL2.config.title ?? "",
+                description: WSL2.config.metaDescription ?? "",
+                topics: jadTargetingData.tags ?? [""],
+                authors: jadTargetingData.author ? jadTargetingData.author.split(',') : [""],
+                modifiedAt: jadTargetingData.modifiedDate ? new Date(jadTargetingData.modifiedDate).toISOString() : "",
+                publishedAt: jadTargetingData.publishedDate ? new Date(jadTargetingData.modifiedDate).toISOString() : "",
+                premium: false,
+                wordCount: jadTargetingData.wordCount ?? null,
+                paragraphCount: jadTargetingData.blockLength ?? "",
+                section: jadTargetingData.mainCategory ?? "",
+                subsection: "",
+              },
+              user: {
+                type: "",
+                age: null,
+                gender: "",
+              },
+            },
+          },
+        },
+      });
+
+      jad.public.loadPositions();
+      jad.public.displayPositions();
+    });
+    if (!window.hasAdblocker) {
+      window.addEventListener('load', () => {
+        populateHashedEmail();
+        WSL2.Events.on('loginSuccess', populateHashedEmail);
+        WSL2.Events.on('onLogOut', () => {
+          jad.config.publisher.hashedId = {};
+        });
+      });
+    }
+  </script>
+<div class="customize-me">
+ <div class="head-content-favs">
+      <section class="head-container head-container-with-ad head-container-with-primary head-container-with-corner">
+ <div class="head head-with-ad is-init">
+  <div class="head-favicons-container">
+ <nav class="head-favicons">
+  <div class="head-favicons-index head-webedia-logo">
+   <a id="favicons-toggle" href="https://www.webedia.es/" data-target="#head-favicons"><abbr title="Webedia">Webedia</abbr></a>
+  </div>
+ </nav>
+</div>  <div class="head-brand">
+   <div class="brand">
+    <a href="/" class="brand-logo head-brand-logo"><span>Directo al Paladar</span></a>
+   </div>
+   <ul class="head-nav">
+    <li><a href="#sections" class="head-link head-link-sections m-v1 js-toggle" data-searchbox="#search-field-1">Menú</a></li>
+    <li><a href="#headlines" class="head-link head-link-new m-v1 js-toggle">Nuevo</a></li>
+    <li><a href="#search" class="head-link head-link-search m-v1 js-toggle" data-searchbox="#search-field-2">Buscar</a></li>
+   </ul>
+      
+<nav class="head-nav-social">
+ <ul class="head-nav-social-list">
+            <li><a href="https://whatsapp.com/channel/0029VaA9GT1Fi8xUYbOTcV1A" class="head-link head-link-whatsapp" rel="nofollow">WhatsApp</a></li>
+ 
+ 
+            <li><a href="https://www.tiktok.com/@directopaladar" class="head-link head-link-tiktok" rel="nofollow">Tiktok</a></li>
+ 
+ 
+          <li><a href="https://twitter.com/directopaladar" class="head-link head-link-x" rel="nofollow">Twitter</a></li>
+
+ 
+            <li><a href="https://www.youtube.com/c/directoalpaladar?sub_confirmation=1" class="head-link head-link-youtube" rel="nofollow">Youtube</a></li>
+ 
+ 
+            <li><a href="https://instagram.com/directopaladar" class="head-link head-link-instagram" rel="nofollow">Instagram</a></li>
+ 
+ 
+          <li><a href="https://www.facebook.com/pages/Directo-al-paladar/41182117378" class="head-link head-link-facebook" rel="nofollow">Facebook</a></li>
+
+ 
+   </ul>
+</nav>
+  </div>
+  <div class="head-topics-container">
+        <div class="head-primary-container">
+  <nav class="head-primary">
+   <ul>
+               <li class="head-primary-item">
+       <a href="https://www.directoalpaladar.com/categoria/postres">POSTRES</a>
+      </li>
+                    <li class="head-primary-item">
+       <a href="https://www.directoalpaladar.com/categoria/viajes">VIAJES</a>
+      </li>
+                    <li class="head-primary-item">
+       <a href="https://www.directoalpaladar.com/categoria/seleccion">SELECCIÓN</a>
+      </li>
+                    <li class="head-primary-item">
+       <a href="https://www.directoalpaladar.com/categoria/recetas-vegetarianas">VEGUI</a>
+      </li>
+                                       </ul>
+  </nav>
+   </div>
+       <div class="head-corners-container">
+ <div class="head-corners">
+  <p class="head-corners-disclaimer">Partners</p>
+  <ul class="head-corners-list">
+       <li>
+     <a title="Yaya Wars/Interporc" href="/yayawars" class="js-partner-tab head-corners-link yayawars">
+      Yaya Wars/Interporc
+     </a>
+    </li>
+     </ul>
+ </div>
+</div>
+     </div>
+ </div>
+</section>
+
+    <div class="ad ad-top">
+  <div class="ad-box" id="div-gpt-top">
+     </div>
+   </div>
+   
+    <div class="page-container ">
+         <div class="section-deeplinking-container m-deeplinking-news m-deeplinking-post o-deeplinking-section">
+  <div class="section-deeplinking o-deeplinking-section_wrapper">
+       <div class="section-deeplinking-wrap">
+     <span class="section-deeplinking-header">HOY SE HABLA DE</span>
+     <ul id="js-deeplinking-news-nav-links" class="section-deeplinking-list">
+             <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/salud/oms-publica-primera-guia-uso-medicamentos-glp-1-para-adelgazar-como-ozempic-wegovy" class="section-deeplinking-anchor">Ozempic</a></li>
+             <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/viajes/uno-nuevos-estrella-michelin-barcelona-tiene-menu-degustacion-que-no-llega-a-100-euros" class="section-deeplinking-anchor">Estrella Michelin</a></li>
+             <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/recetas-de-carnes-y-aves/no-solo-pure-patatas-solo-unas-salchichas-cena-facil-cocina-catalana-para-no-gastar" class="section-deeplinking-anchor">Cena</a></li>
+             <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/consumidores/unboxing-cesta-navidad-inditex-2025-llega-hummus-moscovitas-turrones-random-bombones-estrella-michelin" class="section-deeplinking-anchor">Inditex</a></li>
+             <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/limpieza-y-orden/como-reutilizar-envases-yogur-para-ordenar-cajones-truco-diy-rapido-que-deja-todo-impecable" class="section-deeplinking-anchor">Truco</a></li>
+             <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/ingredientes-y-alimentos/solo-se-comen-gallegos-verdura-que-le-da-mil-vueltas-a-espinacas-acelgas-esta-temporada" class="section-deeplinking-anchor">Galicia</a></li>
+             <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/cultura-gastronomica/este-mito-vuelve-cada-navidad-como-turron-coca-cola-no-invento-a-papa-noel-vistio-rojo-solo-exploto" class="section-deeplinking-anchor">Coca-Cola</a></li>
+             <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/viajes/famoso-sus-botijos-este-pueblo-alicante-tiene-mejores-artesanias-alfareras-espana-tambien-dinosaurio" class="section-deeplinking-anchor">Pueblo</a></li>
+             <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/recetas-vegetarianas/crema-verduras-ligera-reconfortante-se-prepara-dos-hortalizas-infravaloradas-cocina" class="section-deeplinking-anchor">Crema de verduras</a></li>
+             <li class="section-deeplinking-item"><a href="https://www.directoalpaladar.com/cultura-gastronomica/cuchillo-cesta-dos-cosas-importantes-que-no-debes-olvidar-para-ir-a-buscar-setas-seguridad" class="section-deeplinking-anchor">Setas</a></li>
+           </ul>
+     <div id="js-deeplinking-news-nav-btn" class="section-deeplinking-btn" style="display:none"></div>
+    </div>
+     </div>
+ </div>
+
+         <div class="content-container">
+    <main>
+     <article class="article article-normal">
+       <header class="post-normal-header">
+                 <div class="post-title-container">
+  <h1 class="post-title">
+     La Generación Z ha empeorado aún más el café manchado, pero ahora lo llaman 'dirty coffee' y está de moda    </h1>
+</div>
+          <section class="post-entradilla">
+  <div class="post-entradilla-inner">
+   <h2>Exportada de Asia, esta nueva forma</h2>
+  </div>
+ </section>
+                            <div class="post-asset-main">
+            <div class="article-asset-big article-asset-image js-post-images-container">
+               
+<div class="asset-content">
+ <picture>
+  <source media="(min-width: 1200px)" srcset="https://i.blogs.es/3a13c2/dirty-coffee-cafe-manchado/1200_800.jpeg" width="1200" height="800">
+  <source media="(min-width: 501px)" srcset="https://i.blogs.es/3a13c2/dirty-coffee-cafe-manchado/840_560.jpeg" width="840" height="560">
+  <img alt="Dirty Coffee Cafe Manchado" src="https://i.blogs.es/3a13c2/dirty-coffee-cafe-manchado/500_333.jpeg" width="500" height="333" decoding="sync" loading="eager" fetchpriority="high">
+ </picture>
+</div>
+             </div>
+            </div>
+                <div class="post-comments-shortcut">
+                            <a href="#comments" class="post-comments js-smooth-scroll" id="commentCount"></a>
+              
+               <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.directoalpaladar.com/actualidad-1/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb', '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;" class="btn-facebook js-btn-facebook" data-postname="generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda">Facebook</a>
+ <a href="https://twitter.com/intent/tweet?url=https://www.directoalpaladar.com/p/113349%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb&text=La%20Generaci%C3%B3n%20Z%20ha%20empeorado%20a%C3%BAn%20m%C3%A1s%20el%20caf%C3%A9%20manchado%2C%20pero%20ahora%20lo%20llaman%20%27dirty%20coffee%27%20y%20est%C3%A1%20de%20moda%20&via=directopaladar" class="btn-x js-btn-twitter" data-postname="generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda">Twitter</a>
+<a href="https://share.flipboard.com/bookmarklet/popout?v=2&title=La%20Generaci%C3%B3n%20Z%20ha%20empeorado%20a%C3%BAn%20m%C3%A1s%20el%20caf%C3%A9%20manchado%2C%20pero%20ahora%20lo%20llaman%20%27dirty%20coffee%27%20y%20est%C3%A1%20de%20moda%20&url=https%3A%2F%2Fwww.directoalpaladar.com%2Factualidad-1%2Fgeneracion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda%3Futm_source%3Dflipboard%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb" class="btn-flipboard js-flipboard-share-button js-flipboard-share-event" data-postname="generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda">Flipboard</a>
+<a href="mailto:?subject=La%20Generaci%C3%B3n%20Z%20ha%20empeorado%20a%C3%BAn%20m%C3%A1s%20el%20caf%C3%A9%20manchado%2C%20pero%20ahora%20lo%20llaman%20%27dirty%20coffee%27%20y%20est%C3%A1%20de%20moda%20&body=https://www.directoalpaladar.com/actualidad-1/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda%3Futm_source%3Demailsharing%26utm_medium%3Demail%26utm_content%3DPOST%26utm_campaign%3Dbotoneraweb%26utm_term%3DCLICK%2BON%2BTITLE" class="btn-email js-btn-email" data-postname="generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda">E-mail</a>
+ <span class="js-whatsapp"></span>
+ <script>
+   document.addEventListener('DOMContentLoaded', () => {
+     const userAgent = navigator.userAgent.toLowerCase();
+     if (userAgent.indexOf('ipod') < 0) {
+       if (userAgent.indexOf('android') >= 0 || userAgent.indexOf('iphone') >= 0) {
+         const length = document.getElementsByClassName('js-whatsapp').length;
+         for (let i = 0; i < length; i++) {
+           document.getElementsByClassName('js-whatsapp')[i].innerHTML = `<a class='btn-whatsapp js-btn-whatsapp' data-postname="generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda" href="whatsapp://send?text=La Generación Z ha empeorado aún más el café manchado, pero ahora lo llaman &#039;dirty coffee&#039; y está de moda   https://www.directoalpaladar.com/actualidad-1/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda%3Futm_source%3Dwhatsapp%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneramobile">Whatsapp</a>`;
+         }
+       }
+     }
+   }, {once:true});
+ </script>
+        </div>
+       </header>
+      <div class="article-content-wrapper">
+       <div class="article-content-inner">
+                  <div class="article-metadata-container">
+ <div class="article-meta-row">
+ <div class="article-time">
+   <time
+   class="article-date"
+   datetime="2024-10-17T16:01:06Z"
+   data-format="D MMMM YYYY"
+   data-post-modified-time="2024-10-17T16:01:06Z"
+   data-post-modified-format="D MMMM YYYY, HH:mm"
+   data-post-reindexed-original-time=""
+  >
+   2024-10-17T16:01:06Z
+  </time>
+  <span id="is-editor"></span>
+</div>
+   </div>
+</div>
+<div class="p-a-cr m-pa-single  js-authors-container">
+ <div class="p-a-wrap js-wrap">
+     <div class="p-a-avtr">
+       <img src="https://i.blogs.es/9d0088/blob/150_150.jpeg" alt="jaime-de-las-heras" class="author-avatar">
+    </div>
+    <div class="p-a-info">
+           <div class="au-card-relative js-relative">
+      <div class="p-a-chip js-author  p-ab-is-hidden
+" data-id="author-191-creator" role="button" tabindex="0">
+  <p><span>Jaime de las Heras</span></p>
+  <span class="p-a-ui"></span> </div>
+                </div>
+          <span class="p-a-job">Editor Senior</span>     </div>
+ </div>
+ </div>
+ <div class="p-a-card-popover">
+         <div class="p-a-card js-author-info  p-ab-is-hidden
+" id="author-191-creator" >
+ <div class="p-a-cwrap">
+  <div class="p-a-avtr">
+         <img src="https://i.blogs.es/9d0088/blob/150_150.jpeg" alt="jaime-de-las-heras" class="a-c-img">
+       </div>
+  <div class="p-a-pi">
+         <span class="ic-close js-close" role="button" tabindex="0"></span>
+        <p class="p-a-cn">Jaime de las Heras</p>
+   <small class="p-a-cj">Editor Senior</small>
+  </div>
+ </div>
+ <div class="p-a-c">
+      <a class="p-a-pl" href="/autor/jaime-de-las-heras" >3554 publicaciones de Jaime de las Heras</a>
+ </div>
+</div>
+          </div>
+                        <div class="article-content">
+          <div class="blob js-post-images-container">
+<p>Pocos productos hay más decididamente intergeneracionales que el café. Al contrario que puede pasar con ciertos alimentos o con bebidas alcohólicas como el vino o determinados destilados, el café parece unir sensibilidades a lo largo y ancho del mundo y, lo que es más raro, a <strong>generaciones completamente separadas</strong> entre sí.</p>
+<!-- BREAK 1 --> <div class="ad ad-lat">
+  <div class="ad-box" id="div-gpt-lat">
+     </div>
+   </div>
+
+<p>Intentar que un Gen Z que se ha criado entre Monster y Prime empiece a amar un vino gran reserva como si fuera su abuelo <em>boomer</em> suena a distopía, pero <strong>el café, curiosamente, no vive en el mismo limbo</strong>.</p>
+<!-- BREAK 2 -->
+<p>Sí cambian los términos, claro. Si el <em>millenial</em> (aquellos miembros de los años ochenta en adelante) se convirtió en el <strong>arquetipo del consumidor de Starbucks</strong>, la Gen Z (los nacidos a finales de la década de 1990) son, a priori, carne de cafetería de especialidad. Lejos quedan los <em>boomers</em>, aquellos hijos de la década de sesenta, que se criaron entre café torrefactos, achicoria y cafés <em>espressos</em> requemados.</p>
+<!-- BREAK 3 -->  <div class="ad ad-out">
+  <div class="ad-box" id="div-gpt-out">
+     </div>
+   </div>
+<div class="article-asset-video article-asset-normal">
+ <div class="asset-content">
+  <div class="base-asset-video">
+   <div class="js-dailymotion">
+    <script type="application/json">
+                          {"videoId":"x97g0oq","autoplay":true,"title":"BIZCOCHO de CALABAZA en pocos minutos: el dulce FÁCIL y SABROSO que siempre funciona", "tag":"Directo al Paladar", "duration":"181"}
+                  </script>
+   </div>
+  </div>
+ </div>
+</div>
+<p>De todos ellos se extrae mucha literatura y, como es lógico, <strong>miles de nombres</strong> que han ido cambiando con los países, los años y las modas. Si el español medio –no hablamos de ejemplos como Málaga, donde pedir un café es una odisea– creció entre café solo y café con leche, sus hijos ya empezaron a coquetear con términos como <em>latte macchiato</em> o <em>caffé macchiato</em>, que no son más que evoluciones <em>starbuckianas</em> de la <strong>leche manchada o el café manchado</strong>, solo que como las habría llamado un italiano, que siempre lo hace más moderno,</p>
+<!-- BREAK 4 -->
+<p>Pero ahora los Gen Z están descubriendo un más allá en las cafeterías de especialidad con modas que vienen de <a rel="noopener, noreferrer" href="https://www.gamberorosso.it/notizie/dirty-coffee-caffe/">Asia</a>, donde el <strong>sabor demasiado intenso</strong> del café no es igual de apreciado que sucede en Europa o Estados Unidos, cunas de este tipo de cafeterías. Por eso, la moda del <em>dirty coffee</em> está ganando adeptos.</p>
+<!-- BREAK 5 -->
+<p>Tanto como para que el hashtag en Instagram se cuente por varias decenas de miles, pero ¿qué es un <em>dirty coffee</em>? Literalmente se traduciría como 'café sucio' y no es otra cosa que verter un <em>espresso</em> caliente <strong>sobre un vaso con leche fría</strong>.</p>
+<!-- BREAK 6 --> <div class="ad ad-lat2">
+  <div class="ad-box" id="div-gpt-lat2">
+     </div>
+   </div>
+<div class="instagram-media-container article-asset-normal">
+ <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+  <div style="padding:8px;">
+   <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.5% 0; text-align:center; width:100%;">
+    <div style="background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;">
+    </div>
+   </div>
+   <p style=" margin:8px 0 0 0; padding:0 4px;">
+    <a href="https://www.instagram.com/p/C_fQEDohWvg" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">&nbsp;</a>
+   </p>
+  </div>
+ </blockquote>
+</div>
+<script>
+ window._JS_MODULES = window._JS_MODULES || {};
+ _JS_MODULES.instagram = true;
+</script>
+<p>No hay que mezclarlo, matiz importante. Al contrario de lo que sucedería con lo que no deja de ser una <strong>leche manchada</strong>, el <em>dirty coffee</em> está concebido para, en teoría, ser bebido así, sin revolver, para que se aprecie tanto el café como la leche.</p>
+<!-- BREAK 7 -->
+<p>De nuevo, reinventar la rueda para cambiar el nombre a algo que existía, hacerlo tendencia y conseguir <strong>cobrar siete euros por un café con leche fría</strong>. Pero sin revolver, claro.</p>
+<!-- BREAK 8 -->
+<p>Imágenes | <a rel="noopener, noreferrer" href="https://www.instagram.com/p/C2koLS0rR2B/">Instagram drew1__1drew</a></p>
+
+<p>En DAP | <a class="text-outboundlink" href="https://www.directoalpaladar.com/otras-bebidas/19-recetas-con-cafe-para-los-mas-cafeteros" data-vars-post-title="19 recetas con café para los más cafeteros" data-vars-post-url="https://www.directoalpaladar.com/otras-bebidas/19-recetas-con-cafe-para-los-mas-cafeteros">Recetas con café</a></p>
+
+<p>En DAP | <a class="text-outboundlink" href="https://www.directoalpaladar.com/otras-bebidas/11-consejos-para-preparar-el-mejor-cafe-en-casa" data-vars-post-title="11 consejos para preparar el mejor café en casa" data-vars-post-url="https://www.directoalpaladar.com/otras-bebidas/11-consejos-para-preparar-el-mejor-cafe-en-casa">Cómo hacer un buen café</a></p>
+<script>
+ (function() {
+  window._JS_MODULES = window._JS_MODULES || {};
+  var headElement = document.getElementsByTagName('head')[0];
+  if (_JS_MODULES.instagram) {
+   var instagramScript = document.createElement('script');
+   instagramScript.src = 'https://platform.instagram.com/en_US/embeds.js';
+   instagramScript.async = true;
+   instagramScript.defer = true;
+   headElement.appendChild(instagramScript);
+  }
+ })();
+</script>
+ 
+ </div>
+        </div>
+       </div>
+      </div>
+     </article>
+     <div class="section-post-closure">
+ <div class="section-content">
+  <div class="social-share-group">
+      <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.directoalpaladar.com/actualidad-1/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb', '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'); return false;" class="btn-facebook js-btn-facebook" data-postname="generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda">Facebook</a>
+ <a href="https://twitter.com/intent/tweet?url=https://www.directoalpaladar.com/p/113349%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb&text=La%20Generaci%C3%B3n%20Z%20ha%20empeorado%20a%C3%BAn%20m%C3%A1s%20el%20caf%C3%A9%20manchado%2C%20pero%20ahora%20lo%20llaman%20%27dirty%20coffee%27%20y%20est%C3%A1%20de%20moda%20&via=directopaladar" class="btn-x js-btn-twitter" data-postname="generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda">Twitter</a>
+<a href="https://share.flipboard.com/bookmarklet/popout?v=2&title=La%20Generaci%C3%B3n%20Z%20ha%20empeorado%20a%C3%BAn%20m%C3%A1s%20el%20caf%C3%A9%20manchado%2C%20pero%20ahora%20lo%20llaman%20%27dirty%20coffee%27%20y%20est%C3%A1%20de%20moda%20&url=https%3A%2F%2Fwww.directoalpaladar.com%2Factualidad-1%2Fgeneracion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda%3Futm_source%3Dflipboard%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneraweb" class="btn-flipboard js-flipboard-share-button js-flipboard-share-event" data-postname="generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda">Flipboard</a>
+<a href="mailto:?subject=La%20Generaci%C3%B3n%20Z%20ha%20empeorado%20a%C3%BAn%20m%C3%A1s%20el%20caf%C3%A9%20manchado%2C%20pero%20ahora%20lo%20llaman%20%27dirty%20coffee%27%20y%20est%C3%A1%20de%20moda%20&body=https://www.directoalpaladar.com/actualidad-1/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda%3Futm_source%3Demailsharing%26utm_medium%3Demail%26utm_content%3DPOST%26utm_campaign%3Dbotoneraweb%26utm_term%3DCLICK%2BON%2BTITLE" class="btn-email js-btn-email" data-postname="generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda">E-mail</a>
+ <span class="js-whatsapp"></span>
+ <script>
+   document.addEventListener('DOMContentLoaded', () => {
+     const userAgent = navigator.userAgent.toLowerCase();
+     if (userAgent.indexOf('ipod') < 0) {
+       if (userAgent.indexOf('android') >= 0 || userAgent.indexOf('iphone') >= 0) {
+         const length = document.getElementsByClassName('js-whatsapp').length;
+         for (let i = 0; i < length; i++) {
+           document.getElementsByClassName('js-whatsapp')[i].innerHTML = `<a class='btn-whatsapp js-btn-whatsapp' data-postname="generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda" href="whatsapp://send?text=La Generación Z ha empeorado aún más el café manchado, pero ahora lo llaman &#039;dirty coffee&#039; y está de moda   https://www.directoalpaladar.com/actualidad-1/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda%3Futm_source%3Dwhatsapp%26utm_medium%3Dsocial%26utm_campaign%3Dbotoneramobile">Whatsapp</a>`;
+         }
+       }
+     }
+   }, {once:true});
+ </script>
+  </div>
+     <div class="post-tags-container">
+ <span class="post-link-title">Temas</span>
+   <ul class="post-link-list" id="js-post-link-list-container">
+       <li class="post-category-name">
+           <a href="/categoria/actualidad-1">Actualidad</a>
+         </li>
+               <li class="post-link-item"><a href="/tag/cafe">Café</a></li>
+                <li class="post-link-item"><a href="/tag/moda">moda</a></li>
+                <li class="post-link-item"><a href="/tag/tendencias">tendencias</a></li>
+                <li class="post-link-item"><a href="/tag/mundo">Mundo</a></li>
+         </ul>
+  <span class="btn-expand" id="js-btn-post-tags"></span>
+</div>
+   </div>
+</div>
+  <div class ="limit-container">
+      <div class="ad ad-ow">
+  <div data-openweb-ad data-row="1" data-column="1"></div> 
+ </div>
+    <div class="OUTBRAIN" data-src="https://www.directoalpaladar.com/actualidad-1/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda" data-widget-id="AR_1"></div> 
+ </div>
+ <script async="async" src="//widgets.outbrain.com/outbrain.js"></script>
+                     <script>
+ window.WSLModules || (window.WSLModules = {});
+ WSLModules.Comments || (WSLModules.Comments = {
+  'moduleConf' : "c1"
+ });
+</script>
+<a id="to-comments"></a>
+<div id="comments">
+ <div class="comment-section">
+     <div id="main-container" class="comment-section">
+  <div id="common-container">
+   <div class="comment-wrapper initial-comments" style="display:none">
+    <div class="comments-list">
+     <p>Los mejores comentarios:</p>
+     <ul id="initial-comments"></ul>
+    </div>
+   </div>
+      <div id="comment-wrapper" class="comment-wrapper comment-wrapper-aside">
+         <div data-spotim-module="default" data-post-url="https://www.directoalpaladar.com/actualidad-1/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda" data-spot-id="sp_elHFZQu4" data-post-id="113349"></div>
+       </div>
+  </div>
+ </div>
+<script>
+  window.AML || (window.AML = {});
+  AML.Comments || (AML.Comments = {});
+  AML.Comments.config || (AML.Comments.config = {});
+  AML.Comments.config.data = {"comments":[],"meta":{"more_records":"false","start":0,"total":0,"order":"valued","totalCount":0,"commentStatus":"closed"}};
+  AML.Comments.config.postId = 113349;
+  AML.Comments.config.enableSocialShare = "0";
+  AML.Comments.config.status = "open";
+  AML.Comments.config.campaignDate = "03_Dec_2025";
+</script>
+
+ </div>
+</div>
+           <div class="ad ad-cen2">
+  <div class="ad-box" id="div-gpt-cen2">
+     </div>
+   </div>
+      <div class="ad ad-bot">
+  <div class="ad-box" id="div-gpt-bot2">
+     </div>
+   </div>
+            <div class="ad ad-center">
+  <div class="ad-box" id="div-gpt-bot3">
+     </div>
+     <button class="btn-bot-close"></button>
+   </div>
+                 <div class="section-deeplinking-container m-evergreen-links">
+  <div class="section-deeplinking">
+       <div class="section-deeplinking-wrap">
+     <span class="section-deeplinking-header">Temas de interés</span>
+     <ul class="section-deeplinking-list" id="js-evergreen-nav-links">
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/recetas-de-ensaladas/como-hacer-ensaladilla-rusa-matricula-honor-seguimos-recomendaciones-chef-juan-pozuelo" class="section-deeplinking-anchor">
+         Ensaladilla rusa
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-gazpacho-andaluz-tradicional" class="section-deeplinking-anchor">
+         Gazpacho
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-salmorejo-cordobes-tradicional" class="section-deeplinking-anchor">
+         Salmorejo
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/recetas-de-ensaladas/ensalada-campera-receta-facil-imprescindible-para-verano" class="section-deeplinking-anchor">
+         Ensalada campera
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/recetas-de-aperitivos/croquetas-jamon-receta-toda-vida-que-no-sabe-modas-siempre-triunfa" class="section-deeplinking-anchor">
+         Croquetas de jamón
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/postres/bizcocho-yogur-clasico-basico-para-iniciarse-reposteria" class="section-deeplinking-anchor">
+         Bizcocho de yogur
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/curso-de-cocina/salsa-bechamel-receta-definitiva-siempre-te-quede-perfecta" class="section-deeplinking-anchor">
+         Salsa bechamel
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/recetario/101-recetas-sanas-para-para-tener-menu-saludable-lunes-a-domingo" class="section-deeplinking-anchor">
+         Recetas saludables
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/recetario/seis-mejores-recetas-para-freidora-aire-directo-al-paladar-aceite-bien-crujientes" class="section-deeplinking-anchor">
+         Recetas airfryer
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/recetario/54-cenas-saludables-que-tener-siempre-mente-para-mejorar-nuestra-dieta" class="section-deeplinking-anchor">
+         Cenas saludables
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/postres/como-hacer-bizcocho-facil-solo-tres-ingredientes-que-seguro-tenemos-casa" class="section-deeplinking-anchor">
+         Bizcocho casero
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/recetas-de-carnes-y-aves/receta-pollo-al-horno-karlos-arguinano-al-estilo-asador-navarro" class="section-deeplinking-anchor">
+         Pollo al horno
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/recetas-de-legumbres-y-verduras/como-elaborar-hummus-receta" class="section-deeplinking-anchor">
+         Hummus casero
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/recetas-de-huevos-y-tortillas/empezando-en-la-cocina-receta-de-tortilla-de-patatas-con-cebolla" class="section-deeplinking-anchor">
+         Tortilla de patatas
+        </a>
+       </li>
+             <li class="section-deeplinking-item">
+        <a href="https://www.directoalpaladar.com/recetas-de-pescados-y-mariscos/empedrat-receta-ensalada-bacalao-judias-para-disfrutar-verano" class="section-deeplinking-anchor">
+         Empedrat
+        </a>
+       </li>
+           </ul>
+     <div class="section-deeplinking-btn" id="js-evergreen-nav-btn"></div>
+    </div>
+     </div>
+ </div>
+
+    </main>
+    <script>
+  window.WSLModules = window.WSLModules || {};
+  WSLModules.Footer = {'moduleConf' : 'c1'};
+</script>
+ <script>
+  function runDailyMotion () {
+    const AUTOPLAY_LIMIT = WSL2.config.dailymotionAutoplayLimit;
+    let isPostsubtypeUseLimit = true;
+    let autoplayLimit = Infinity;
+    if (AUTOPLAY_LIMIT) {
+      isPostsubtypeUseLimit = 0 > ['landing'].indexOf(WSL2.config.postSubType);
+      autoplayLimit = isPostsubtypeUseLimit ? AUTOPLAY_LIMIT : autoplayLimit;
+    }
+
+    const isPostPage = Boolean(WSL2.config.postId);
+    const isDesktop = document.body.classList.contains('js-desktop');
+
+    const getTargetingKeyValues = (videoContainer) => {
+      let scriptTagInVideo = '';
+      Array.from(videoContainer.children).forEach((child) => {
+        if ('SCRIPT' === child.tagName) {
+          scriptTagInVideo = child;
+        }
+      });
+
+      const autoplayVideos = [];
+      const data = JSON.parse(scriptTagInVideo.text);
+      let inhouse = 'webedia-prod' === data.tag;
+      const videoData = data;
+      const isAutoplayable = isPostPage && autoplayVideos.length <= autoplayLimit ? Boolean(data.autoplay) : false;
+      let autoplayValue = isAutoplayable ? 'on' : 'off';
+      let isAutoplayTargetingTrue = data.autoplay;
+      let videoFooter = false;
+      if ('videoFooter' === data.type) {
+        autoplayValue = 'on';
+        isAutoplayTargetingTrue = true;
+        videoFooter = true;
+      }
+      
+      if (autoplayValue) {
+        autoplayVideos.push(videoContainer);
+      }
+      videoData.autoplayValue = autoplayValue;
+
+      let positionName = '';
+      if (isAutoplayTargetingTrue) {
+        positionName = isDesktop ? 'preroll_sticky_autoplay' : 'preroll_notsticky_autoplay';
+      } else {
+        positionName = isDesktop ? 'preroll_sticky_starttoplay' : 'preroll_notsticky_starttoplay';
+      }
+
+      return { positionName, videoData, inhouse, videoFooter };
+    };
+
+    const initDailymotionV3 = () => {
+      document.querySelectorAll('div.js-dailymotion').forEach((videoContainer, index) => {
+        const { positionName, videoData, inhouse, videoFooter } = getTargetingKeyValues(videoContainer); 
+        let updatedPlayerId = playerId;
+        if ('off' === videoData.autoplayValue) {
+          updatedPlayerId = WSL2.config.dailymotionPlayerIdAutoplayOff;
+        }
+        const divId = `${updatedPlayerId}-${index}`;
+        const element = document.createElement('div');
+        element.setAttribute('id', divId);
+        videoContainer.appendChild(element);
+
+        dailymotion.createPlayer(divId, {
+          referrerPolicy: 'no-referrer-when-downgrade',
+          player: updatedPlayerId,
+          params: {
+            mute: true,
+          },
+        }).then((player) => window.WSL2.handlePlayer(player, videoData, updatedPlayerId));
+        if (window.hasAdblocker) {
+          dailymotion
+            .getPlayer(divId)
+            .then((player) => player.loadContent({ video: videoData.videoId }) );
+        } else {
+                      jad.cmd.push(() => {
+              const positionKey = `${positionName}/${divId}`;
+              
+              jad.public.setTargetingOnPosition(
+                positionKey,
+                { related: ['yes'] }
+              );
+
+              jad.public.getDailymotionAdsParamsForScript(
+                [`${positionName}/${divId}`],
+                (res) => {
+                  initDailymotionPlayer(divId, videoData.videoId, videoFooter, inhouse, res[positionKey]);
+                }
+              );
+            });
+                  }
+      });
+    };
+
+    const playerId =  WSL2.config[`${WSL2.config.device}DailymotionPlayerId`];
+    const newScript = document.createElement('script');
+
+    newScript.src = `https://geo.dailymotion.com/libs/player/${playerId}.js`;
+    newScript.onload = initDailymotionV3;
+    document.body.appendChild(newScript);
+  }
+
+  function initDailymotionPlayer(divId, videoId, videoFooter, inhouse, adResponseString = null) {
+    dailymotion.getPlayer(divId).then((player) => {
+      const baseParams = '%26videofooter%3D' + videoFooter + '%26inhouse%3D' + inhouse + '&vpos';
+      let finalParams;
+
+      if (adResponseString) {
+        let parts = adResponseString.split("/")[1];
+        if (typeof parts === 'string') {
+          parts = parts.split('&vpos');
+        } else {
+          parts = [];
+        }
+        finalParams = parts.join(baseParams);
+      } else {
+        finalParams = baseParams;
+      }
+
+      finalParams = decodeURIComponent(finalParams);
+
+      const config = { plcmt: "2" };
+      if ('1' === WSL2.config.enableDynamicIU) {
+        config.dynamiciu = WSL2.config.dynamicIU;
+        config.keyvalues = finalParams;
+      } else {
+        config.customParams = finalParams;
+      }
+      player.setCustomConfig(config);
+      player.loadContent({ video: videoId });
+    })
+    .then(() => {
+      const videoElement = document.getElementById(divId);
+      const videoParent = videoElement.parentElement.parentElement;
+      videoParent.classList.remove('base-asset-video');
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    runDailyMotion();
+  });
+</script>
+ <footer class="foot js-foot">
+ <div class="wrapper foot-wrapper foot-wrapper-show">
+  <div id="newsletter" class="newsletter-box">
+     </div>
+     <div class="menu-follow foot-menu-follow">
+    <span class="item-meta foot-item-meta">Síguenos</span>
+    <ul>
+ <li>
+  <a class="icon-whatsapp link-whatsapp" href="https://whatsapp.com/channel/0029VaA9GT1Fi8xUYbOTcV1A" rel="nofollow">WhatsApp</a>
+ </li>
+ <li>
+  <a href="https://twitter.com/directopaladar" class="icon-x link-x" rel="nofollow">Twitter</a>
+ </li>
+ <li>
+  <a href="https://www.facebook.com/pages/Directo-al-paladar/41182117378" class="icon-facebook link-facebook" rel="nofollow">Facebook</a>
+ </li>
+   <li>
+   <a href="https://www.youtube.com/c/directoalpaladar?sub_confirmation=1" class="icon-youtube link-youtube" rel="nofollow">Youtube</a>
+  </li>
+     <li>
+   <a class="icon-instagram link-instagram" href="https://instagram.com/directopaladar" rel="nofollow">Instagram</a>
+  </li>
+     <li>
+   <a class="icon-pinterest link-pinterest" href="https://es.pinterest.com/directopaladar" rel="nofollow">Pinterest</a>
+  </li>
+     <li>
+   <a href="https://flipboard.com/@directopaladar" class="icon-flipboard link-flipboard" rel="nofollow">Flipboard</a>
+  </li>
+      <li>
+   <a class="icon-tiktok link-tiktok" href="https://www.tiktok.com/@directopaladar" rel="nofollow">Tiktok</a>
+  </li>
+ </ul>
+   </div>
+      <nav class="menu-categories foot-menu-categories">
+   <p class="nav-heading">En Directo al Paladar hablamos de...</p>
+   <ul>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/recetas-con-thermomix">Recetas con Thermomix</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/postres">Postres</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/recetas-vegetarianas">Vegui</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/viajes">Viajes</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/recetas-de-aperitivos">Recetas de Aperitivos</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/categoria/cultura-gastronomica">Cultura gastronómica</a>
+  </li>
+    <li>
+   <a class="list-item foot-list-item" href="/tag/recetas-saludables">Recetas Saludables</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/recetas-de-navidad">Recetas de Navidad</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/recetas-de-cremas">Recetas de cremas</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/platos-de-cuchara">Platos de cuchara</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/recetas-de-halloween">Recetas de Halloween</a>
+  </li>
+   <li>
+   <a class="list-item foot-list-item" href="/tag/restaurantes">Restaurantes</a>
+  </li>
+ </ul>
+     </nav>
+  <p class="view-even-more"><a href="/archivos" class="btn">Ver más temas</a></p>      <div class="search-box foot-search">
+  <div id="google-cse-3" class="google-search"></div>
+ </div>
+   <div id="search-container-3" class="js-search-results foot-search-results"></div>
+   </div>
+</footer>
+ <script>
+  (function() {
+   var form = document.createElement('form');
+   form.method = 'POST';
+   form.classList.add('js-subscription', 'newsletter-form', 'foot-newsletter-form');
+   form.setAttribute('data-url', "https://www.directoalpaladar.com/modules/subscription/form");
+   form.innerHTML = '<p class="nav-heading">RECIBE &quot;Al fondo hay sitio&quot;, NUESTRA NEWSLETTER SEMANAL </p>\
+    <p><input class="js-email newsletter-input" type="email" placeholder="Tu correo electrónico" required>\
+    <button class="btn-primary newsletter-button js-subscribe-btn" type="submit">Suscribir</button></p>\
+    <small class="newsletter-legal-disclaimer js-disclaimer">Suscribiéndote aceptas nuestra <a href="https://weblogs.webedia.es/aviso-legal.html">política de privacidad</a></small>\
+    <div class="alert-success js-subscribe-success" style="display: none;"></div>\
+    <div class="alert-error js-subscribe-error" style="display: none;">Error: el correo electrónico no tiene el formato correcto</div>';
+   var newsletterContainer = document.getElementById('newsletter');
+   newsletterContainer.insertBefore(form, newsletterContainer.firstChild);
+  })();
+ </script>
+<div class="foot-external js-foot-external ">
+ <div class="wrapper foot-wrapper">
+  <header class="foot-head">
+   <a class="backlink foot-backlink" href="#">Subir</a>
+   <p class="webedia-brand foot-webedia-brand">
+ <a href="https://www.webedia.es/" class="webedia-logo foot-webedia-logo"><span>Webedia</span></a>
+</p>
+  </header>
+    <div class="menu-external foot-menu-external">
+   <div class="spain-blogs">
+          <div class="links-category">
+             <p class="channel-title"> Tecnología </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  rel="nofollow"  href="//www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.xatakamovil.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka Móvil
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.xatakandroid.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka Android
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.xatakahome.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka Smart Home
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.applesfera.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Applesfera
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.genbeta.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Genbeta
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.mundoxiaomi.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Mundo Xiaomi
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.territorioese.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Territorio S
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Videojuegos </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.3djuegos.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           3DJuegos
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.vidaextra.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Vida Extra
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.millenium.gg?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           MGG
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.3djuegospc.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           3DJuegos PC
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.3djuegosguias.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           3DJuegos Guías
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Entretenimiento </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="https://www.sensacine.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Sensacine
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Espinof
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Gastronomía </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.directoalpaladar.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Directo al Paladar
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Motor </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.motorpasion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Motorpasión
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.motorpasionmoto.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Motorpasión Moto
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Estilo de vida </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  rel="nofollow"  href="//www.vitonica.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Vitónica
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Trendencias
+         </a></li>
+            <li><a class="list-item foot-list-item"  rel="nofollow"  href="//decoracion.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Decoesfera
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.compradiccion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Compradiccion
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.poprosa.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Poprosa
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.bebesymas.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Bebés y Más
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.diariodelviajero.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Diario del Viajero
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+             <p class="channel-title"> Economía </p>
+  <ul>
+         <li><a class="list-item foot-list-item"  href="//www.elblogsalmon.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           El Blog Salmón
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.pymesyautonomos.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Pymes y Autónomos
+         </a></li>
+      </ul>
+
+   
+  </div>
+ 
+   </div>
+       <div class="latam-blogs">
+     <p class="channel-title">
+      Ediciones Internacionales
+     </p>
+           <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="//www.xataka.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka México
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.xataka.com.co?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka Colombia
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.xataka.com.ar?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka Argentina
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="//www.xataka.com.br?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Xataka Brasil
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="//www.3djuegos.lat#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           3DJuegos LATAM
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="https://www.sensacine.com.mx#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Sensacine México
+         </a></li>
+            <li><a class="list-item foot-list-item"  href="https://www.sensacine.com.co#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Sensacine Colombia
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="//www.directoalpaladar.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Directo al Paladar México
+         </a></li>
+      </ul>
+
+   
+  </div>
+   <div class="links-category">
+            <ul>
+         <li><a class="list-item foot-list-item"  href="//www.motorpasion.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">
+           Motorpasión México
+         </a></li>
+      </ul>
+
+   
+  </div>
+ 
+    </div>
+           </div>
+ </div>
+</div>
+ <aside id="head-favicons" class="head-favicons-container m-is-later js-head-favicons m-favicons-compact">
+ <div class="head-favicons">
+  <div class="head-favicons-index head-webedia-logo">
+   <a class="js-group-toggle" href="#" data-target="#head-network"><abbr title="Webedia">Webedia</abbr></a>
+  </div>
+  <ul class="head-favicons-list">
+                                 <li>
+      <a class="favicon tec-xataka
+       " rel="nofollow" href="//www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Xataka</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-vidaextra
+       "  href="//www.vidaextra.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Vida Extra</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon oci-espinof
+       "  href="//www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Espinof</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-genbeta
+       "  href="//www.genbeta.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Genbeta</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon est-directoalpaladar
+              favicon-current
+       "  href="//www.directoalpaladar.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Directo al Paladar</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon est-trendencias
+       "  href="//www.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Trendencias</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-applesfera
+       "  href="//www.applesfera.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Applesfera</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-xatakamovil
+       "  href="//www.xatakamovil.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Xataka Móvil</span>
+      </a>
+     </li>
+                                     <li>
+      <a class="favicon est-decoesfera
+       " rel="nofollow" href="//decoracion.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Decoesfera</span>
+      </a>
+     </li>
+                                     <li>
+      <a class="favicon est-vitonica
+       " rel="nofollow" href="//www.vitonica.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Vitónica</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-xatakandroid
+       "  href="//www.xatakandroid.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Xataka Android</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-xatakahome
+       "  href="//www.xatakahome.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Xataka Smart Home</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-compradiccion
+       "  href="//www.compradiccion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Compradiccion</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tech-3djuegos
+       "  href="//www.3djuegos.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>3DJuegos</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon oci-sensacine
+       "  href="https://www.sensacine.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Sensacine</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tech-millenium
+       "  href="//www.millenium.gg?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>MGG</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon est-poprosa
+       "  href="//www.poprosa.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Poprosa</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-mundoxiaomi
+       "  href="//www.mundoxiaomi.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Mundo Xiaomi</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-3djuegospc
+       "  href="//www.3djuegospc.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>3DJuegos PC</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-3djuegosguias
+       "  href="//www.3djuegosguias.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>3DJuegos Guías</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon tec-territorioese
+       "  href="//www.territorioese.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Territorio S</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon est-bebesymas
+       "  href="//www.bebesymas.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Bebés y Más</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon mot-motorpasion
+       "  href="//www.motorpasion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Motorpasión</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon mot-motorpasionmoto
+       "  href="//www.motorpasionmoto.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Motorpasión Moto</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon eco-elblogsalmon
+       "  href="//www.elblogsalmon.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>El Blog Salmón</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon eco-pymesyautonomos
+       "  href="//www.pymesyautonomos.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Pymes y Autónomos</span>
+      </a>
+     </li>
+                          <li>
+      <a class="favicon oci-diariodelviajero
+       "  href="//www.diariodelviajero.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+       <span>Diario del Viajero</span>
+      </a>
+     </li>
+         </ul>
+ </div>
+</aside>
+<aside class="favicons-expanded-container js-favicons-expand" id="head-network">
+ <div class="favicons-expanded">
+           <div class="favicons-expanded-inner">
+           <ul>
+  <li><h4>Tecnología</h4></li>
+         <li>
+     <a class="favicon tec-xataka"  rel="nofollow"  href="//www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Xataka
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-xatakamovil"  href="//www.xatakamovil.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Xataka Móvil
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-xatakandroid"  href="//www.xatakandroid.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Xataka Android
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-xatakahome"  href="//www.xatakahome.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Xataka Smart Home
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-applesfera"  href="//www.applesfera.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Applesfera
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-genbeta"  href="//www.genbeta.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Genbeta
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-mundoxiaomi"  href="//www.mundoxiaomi.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Mundo Xiaomi
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-territorioese"  href="//www.territorioese.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Territorio S
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><h4>Videojuegos</h4></li>
+         <li>
+     <a class="favicon tech-3djuegos"  href="//www.3djuegos.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>3DJuegos
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-vidaextra"  href="//www.vidaextra.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Vida Extra
+     </a>
+    </li>
+            <li>
+     <a class="favicon tech-millenium"  href="//www.millenium.gg?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>MGG
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-3djuegospc"  href="//www.3djuegospc.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>3DJuegos PC
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-3djuegosguias"  href="//www.3djuegosguias.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>3DJuegos Guías
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><h4>Entretenimiento</h4></li>
+         <li>
+     <a class="favicon oci-sensacine"  href="https://www.sensacine.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Sensacine
+     </a>
+    </li>
+            <li>
+     <a class="favicon oci-espinof"  href="//www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Espinof
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><h4>Gastronomía</h4></li>
+         <li>
+     <a class="favicon est-directoalpaladar"  href="//www.directoalpaladar.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Directo al Paladar
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><h4>Motor</h4></li>
+         <li>
+     <a class="favicon mot-motorpasion"  href="//www.motorpasion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Motorpasión
+     </a>
+    </li>
+            <li>
+     <a class="favicon mot-motorpasionmoto"  href="//www.motorpasionmoto.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Motorpasión Moto
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><h4>Estilo de vida</h4></li>
+         <li>
+     <a class="favicon est-vitonica"  rel="nofollow"  href="//www.vitonica.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Vitónica
+     </a>
+    </li>
+            <li>
+     <a class="favicon est-trendencias"  href="//www.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Trendencias
+     </a>
+    </li>
+            <li>
+     <a class="favicon est-decoesfera"  rel="nofollow"  href="//decoracion.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Decoesfera
+     </a>
+    </li>
+            <li>
+     <a class="favicon tec-compradiccion"  href="//www.compradiccion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Compradiccion
+     </a>
+    </li>
+            <li>
+     <a class="favicon est-poprosa"  href="//www.poprosa.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Poprosa
+     </a>
+    </li>
+            <li>
+     <a class="favicon est-bebesymas"  href="//www.bebesymas.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Bebés y Más
+     </a>
+    </li>
+            <li>
+     <a class="favicon oci-diariodelviajero"  href="//www.diariodelviajero.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Diario del Viajero
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+   <div class="favicons-expanded-inner">
+           <ul>
+  <li><h4>Economía</h4></li>
+         <li>
+     <a class="favicon eco-elblogsalmon"  href="//www.elblogsalmon.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>El Blog Salmón
+     </a>
+    </li>
+            <li>
+     <a class="favicon eco-pymesyautonomos"  href="//www.pymesyautonomos.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=favicons">
+      <span></span>Pymes y Autónomos
+     </a>
+    </li>
+      </ul>
+
+   
+  </div>
+ 
+ </div>
+</aside>
+
+ <div id="fb-root"></div>
+   <section id="sections" class="head-menu-container head-menu-sections">
+ <a href="#sections" class="head-menu-toggler js-toggle"></a>
+ <div class="head-menu">
+  <a href="#sections" class="close close-corner js-toggle js-menu-close">Inicio</a>
+  <div id="opt-in"></div>
+  <div id="sections-login-wrapper" class="sections-login">
+   <div id="js-login" class="user-card"></div>
+  </div>
+       <div class="hd-menu-srch-cr">
+    <div id="google-cse" class="google-search"></div>
+   </div>
+   <script async src="https://cse.google.com/cse.js?cx=d2deccec2c2de4b7f"></script>
+<script>
+   function onSearchButtonLoaded () {
+      const searchButtons = document.querySelectorAll('.gsc-search-button-v2');
+      searchButtons.forEach(function (searchButton) {
+         if (searchButton) {
+            searchButton.innerHTML = 'Buscar';
+         }
+      });
+   }
+
+   function onGoogleCSELoad () {
+      google.search.cse.element.render({
+        div: "google-cse",
+        tag: 'search'
+      });
+
+      google.search.cse.element.render({
+        div: "google-cse-2",
+        tag: 'search'
+      });
+
+      google.search.cse.element.render({
+        div: "google-cse-3",
+        tag: 'search'
+      });
+      onSearchButtonLoaded();
+   }
+
+   window.__gcse = {
+      parsetags: 'explicit',
+      initializationCallback: onGoogleCSELoad
+   };
+</script>       <div class="head-menu-partners">
+    <p class="nav-heading">Partners</p>
+    <ul>
+           <li>
+               <a class="head-list-item head-brand-link head-brand-yayawars js-track-header-event" href="/yayawars">
+         Yaya Wars/Interporc
+        </a>
+             </li>
+         </ul>
+   </div>
+      <nav class="head-menu-categories">
+    <ul>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/recetas-con-thermomix">Recetas con Thermomix</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/postres">Postres</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/recetas-vegetarianas">Vegui</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/viajes">Viajes</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/recetas-de-aperitivos">Recetas de Aperitivos</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/categoria/cultura-gastronomica">Cultura gastronómica</a>
+      </li>
+                <li>
+       <a class="head-list-item js-track-header-event" href="/tag/recetas-saludables">Recetas Saludables</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/recetas-de-navidad">Recetas de Navidad</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/recetas-de-cremas">Recetas de cremas</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/platos-de-cuchara">Platos de cuchara</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/recetas-de-halloween">Recetas de Halloween</a>
+      </li>
+           <li>
+       <a class="head-list-item js-track-header-event" href="/tag/restaurantes">Restaurantes</a>
+      </li>
+         </ul>
+    <p class="head-more-item">
+     <a href="/archivos" class="btn js-track-header-event">Ver más temas</a>
+    </p>
+  </nav>
+  <aside class="head-menu-follow">
+   <span class="head-item-meta">Síguenos</span>
+    <ul>
+ <li>
+  <a class="icon-whatsapp link-whatsapp" href="https://whatsapp.com/channel/0029VaA9GT1Fi8xUYbOTcV1A" rel="nofollow">WhatsApp</a>
+ </li>
+ <li>
+  <a href="https://twitter.com/directopaladar" class="icon-x link-x" rel="nofollow">Twitter</a>
+ </li>
+ <li>
+  <a href="https://www.facebook.com/pages/Directo-al-paladar/41182117378" class="icon-facebook link-facebook" rel="nofollow">Facebook</a>
+ </li>
+   <li>
+   <a href="https://www.youtube.com/c/directoalpaladar?sub_confirmation=1" class="icon-youtube link-youtube" rel="nofollow">Youtube</a>
+  </li>
+     <li>
+   <a class="icon-instagram link-instagram" href="https://instagram.com/directopaladar" rel="nofollow">Instagram</a>
+  </li>
+     <li>
+   <a class="icon-pinterest link-pinterest" href="https://es.pinterest.com/directopaladar" rel="nofollow">Pinterest</a>
+  </li>
+     <li>
+   <a href="https://flipboard.com/@directopaladar" class="icon-flipboard link-flipboard" rel="nofollow">Flipboard</a>
+  </li>
+      <li>
+   <a class="icon-tiktok link-tiktok" href="https://www.tiktok.com/@directopaladar" rel="nofollow">Tiktok</a>
+  </li>
+  <li id="sections-newsletter">
+  <a href="#head-menu-newsletter" class="icon-email link-email js-toggle-subscribe">E-mail</a>
+ </li>
+</ul>
+  </aside>
+  <section id="head-menu-newsletter" class="head-menu-newsletter">
+   <a href="#head-menu-newsletter" class="close close-corner js-close-corner"></a>
+   <form class="newsletter-form head-newsletter-form js-subscription" method="post" data-url="https://www.directoalpaladar.com/modules/subscription/form" data-id="#head-menu-newsletter">
+    <h3 class="newsletter-heading">RECIBE &quot;Al fondo hay sitio&quot;, NUESTRA NEWSLETTER SEMANAL </h3>
+    <p><input class="newsletter-input js-email" type="email" placeholder='Tu correo electrónico' required>
+    <button class="btn-primary newsletter-button js-subscribe-btn" type="submit">Suscribir</button></p>
+    <small class="newsletter-legal-disclaimer js-disclaimer">Suscribiéndote aceptas nuestra <a href="https://weblogs.webedia.es/aviso-legal.html">política de privacidad</a></small>
+    <div class="alert-success js-subscribe-success" style="display: none;"></div>
+    <div class="alert-error js-subscribe-error" style="display: none;">Error: el correo electrónico no tiene el formato correcto</div>
+   </form>
+  </section>
+  <nav class="head-menu-extras">
+   <ul class="head-list">
+         <li><a class="head-list-item section-tv js-track-header-event" href="https://www.youtube.com/c/directoalpaladar?sub_confirmation=1">Directo al Paladar
+      <span>TV</span>
+    </a></li>
+        <li><a class="head-list-item section-staff js-track-header-event" href="/quienes-somos">Equipo editorial</a></li>
+    <li><a class="head-list-item section-contact js-track-header-event" href="/contacto">Contacta con nosotros</a></li>
+    <li id="sections-login">
+     <span id="login"></span>
+    </li>
+   </ul>
+  </nav>
+         <aside class="head-menu-external">
+     <p class="nav-heading">Más sitios que te gustarán</p>
+     <ul>
+                           <li>
+        <a class="head-list-item js-track-header-event"  href="https://www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Espinof</a>
+       </li>
+                                          <li>
+        <a class="head-list-item js-track-header-event" rel="nofollow" href="https://www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka</a>
+       </li>
+                           <li>
+        <a class="head-list-item js-track-header-event"  href="https://www.poprosa.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Poprosa</a>
+       </li>
+                                          <li>
+        <a class="head-list-item js-track-header-event" rel="nofollow" href="https://www.vitonica.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Vitónica</a>
+       </li>
+           </ul>
+    </aside>
+      <div class="head-menu-channels">
+    <h3>Explora en nuestros medios</h3>
+    <ul>
+           <li>
+       <a href="#head-channel-tecnologia" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Tecnología
+        <span class="head-item-meta m-desc">Móviles, tablets, aplicaciones, videojuegos, fotografía, domótica...</span>
+       </a>
+       <ul id="head-channel-tecnologia" class="head-channel-list">
+                                                                <li>
+           <a class="head-list-item tec-xataka js-track-header-event" rel="nofollow"  href="//www.xataka.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-xatakamovil js-track-header-event"   href="//www.xatakamovil.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka Móvil</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-xatakandroid js-track-header-event"   href="//www.xatakandroid.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka Android</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-xatakahome js-track-header-event"   href="//www.xatakahome.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka Smart Home</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-applesfera js-track-header-event"   href="//www.applesfera.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Applesfera</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-genbeta js-track-header-event"   href="//www.genbeta.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Genbeta</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-mundoxiaomi js-track-header-event"   href="//www.mundoxiaomi.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Mundo Xiaomi</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-territorioese js-track-header-event"   href="//www.territorioese.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Territorio S</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-videojuegos" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Videojuegos
+        <span class="head-item-meta m-desc">Consolas, juegos, PC, PS4, Switch, Nintendo 3DS y Xbox...</span>
+       </a>
+       <ul id="head-channel-videojuegos" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item tech-3djuegos js-track-header-event"   href="//www.3djuegos.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">3DJuegos</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-vidaextra js-track-header-event"   href="//www.vidaextra.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Vida Extra</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tech-millenium js-track-header-event"   href="//www.millenium.gg?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">MGG</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-3djuegospc js-track-header-event"   href="//www.3djuegospc.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">3DJuegos PC</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-3djuegosguias js-track-header-event"   href="//www.3djuegosguias.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">3DJuegos Guías</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-entretenimiento" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Entretenimiento
+        <span class="head-item-meta m-desc">Series, cine, estrenos en cartelera, premios, rodajes, nuevas películas, televisión...</span>
+       </a>
+       <ul id="head-channel-entretenimiento" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item oci-sensacine js-track-header-event"   href="https://www.sensacine.com#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Sensacine</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item oci-espinof js-track-header-event"   href="//www.espinof.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Espinof</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-gastronomia" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Gastronomía
+        <span class="head-item-meta m-desc">Recetas, recetas de cocina fácil, pinchos, tapas, postres...</span>
+       </a>
+       <ul id="head-channel-gastronomia" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item est-directoalpaladar js-track-header-event"   href="//www.directoalpaladar.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Directo al Paladar</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-motor" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Motor
+        <span class="head-item-meta m-desc">Coches, motos, vehículos eléctricos, híbridos, camper, pruebas, competición, seguridad vial...</span>
+       </a>
+       <ul id="head-channel-motor" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item mot-motorpasion js-track-header-event"   href="//www.motorpasion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Motorpasión</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item mot-motorpasionmoto js-track-header-event"   href="//www.motorpasionmoto.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Motorpasión Moto</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-Estilodevida" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Estilo de vida
+        <span class="head-item-meta m-desc">Moda, belleza, estilo, salud, fitness, familia, gastronomía, decoración, famosos...</span>
+       </a>
+       <ul id="head-channel-Estilodevida" class="head-channel-list">
+                                                                <li>
+           <a class="head-list-item est-vitonica js-track-header-event" rel="nofollow"  href="//www.vitonica.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Vitónica</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item est-trendencias js-track-header-event"   href="//www.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Trendencias</a>
+          </li>
+                                                                         <li>
+           <a class="head-list-item est-decoesfera js-track-header-event" rel="nofollow"  href="//decoracion.trendencias.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Decoesfera</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-compradiccion js-track-header-event"   href="//www.compradiccion.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Compradiccion</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item est-poprosa js-track-header-event"   href="//www.poprosa.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Poprosa</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item est-bebesymas js-track-header-event"   href="//www.bebesymas.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Bebés y Más</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item oci-diariodelviajero js-track-header-event"   href="//www.diariodelviajero.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Diario del Viajero</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-economia" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Economía
+        <span class="head-item-meta m-desc">Finanzas personales, mercados, empresas, macroeconomía, inversión, ahorro, impuestos, emprendimiento, autónomo...</span>
+       </a>
+       <ul id="head-channel-economia" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item eco-elblogsalmon js-track-header-event"   href="//www.elblogsalmon.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">El Blog Salmón</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item eco-pymesyautonomos js-track-header-event"   href="//www.pymesyautonomos.com?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Pymes y Autónomos</a>
+          </li>
+                        </ul>
+      </li>
+           <li>
+       <a href="#head-channel-EdicionesInternacionales" class="head-list-item head-channel-caption explore-weblogs-sl-toggle">
+        Ediciones Internacionales
+        <span class="head-item-meta m-desc">México, USA, Colombia...</span>
+       </a>
+       <ul id="head-channel-EdicionesInternacionales" class="head-channel-list">
+                                             <li>
+           <a class="head-list-item tec-xataka js-track-header-event"   href="//www.xataka.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka México</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item est-directoalpaladar js-track-header-event"   href="//www.directoalpaladar.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Directo al Paladar México</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item oci-sensacine js-track-header-event"   href="https://www.sensacine.com.mx#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Sensacine México</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-3djuegoslat js-track-header-event"   href="//www.3djuegos.lat#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">3DJuegos LATAM</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-xataka js-track-header-event"   href="//www.xataka.com.co?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka Colombia</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-xataka js-track-header-event"   href="//www.xataka.com.ar?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka Argentina</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item tec-xataka js-track-header-event"   href="//www.xataka.com.br?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Xataka Brasil</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item oci-sensacine js-track-header-event"   href="https://www.sensacine.com.co#utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Sensacine Colombia</a>
+          </li>
+                                                      <li>
+           <a class="head-list-item mot-motorpasion js-track-header-event"   href="//www.motorpasion.com.mx?utm_source=directoalpaladar&utm_medium=network&utm_campaign=footer">Motorpasión México</a>
+          </li>
+                        </ul>
+      </li>
+         </ul>
+   </div>
+    <nav class="head-menu-links">
+   <ul class="head-list">
+    <li><a class="head-list-item js-track-header-event" href="https://www.weblogssl.com/contenidos">Condiciones de uso</a></li>
+    <li><a class="head-list-item js-track-header-event" href="https://www.weblogssl.com/cookies">Condiciones de uso de cookies</a></li>
+    <li><a class="head-list-item js-track-header-event" href="mailto:publicidad@webedia-group.com">Publicidad</a></li>
+   </ul>
+  </nav>
+ </div>
+</section>
+<div id="headlines" class="head-menu-container head-menu-new m-menu-right">
+ <a href="#headlines" class="head-menu-toggler js-toggle"></a>
+ <div class="head-menu">
+  <a href="#headlines" class="close close-corner js-toggle">Inicio</a>
+     <p class="nav-heading">Reciente</p>
+    <ul id="recent-posts">
+    <li>
+              <a href="/recetas-de-salsas-y-guarniciones/como-hacer-mejor-salsa-pedro-ximenez-receta-ideal-para-acompanar-todo-tipo-carnes" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Cómo hacer la mejor salsa de Pedro Ximénez, receta ideal para acompañar todo tipo de carnes</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+              <a href="/recetas-de-sopas-y-cremas/crema-de-lombarda-con-hinojo-y-sidra-receta-ligera-reconfortante" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Crema de lombarda, receta fácil y saludable</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+              <a href="/recetas-de-carnes-y-aves/carrilleras-cerdo-al-vino-tinto-receta-para-impresionar-e-impresionarte" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Carrilleras de cerdo al vino tinto, una receta para impresionar (e impresionarte)</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+               <a href="/cultura-gastronomica/medieval-tradicional-asi-turron-menorca-que-se-hace-migas-pan-frutos-secos-hace-mil-anos" class="head-new-item">
+  Medieval y tradicional: así es el turrón de Menorca que se hace con migas de pan y frutos secos desde hace mil años 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2025-12-03T19:00:44Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/consumidores/nuevo-licor-pistacho-mercadona-tiene-cero-unidades-pistachos-nadie-esta-obligado-a-ponerlo-etiqueta" class="head-new-item">
+  El nuevo licor de pistacho de Mercadona tiene cero unidades de pistacho, pero nadie está obligado a ponerlo en la etiqueta
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2025-12-03T18:00:44Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/postres/costrata-mermelada-receta-tradicional-deliciosa-tarta-italiana" class="head-new-item">
+  Costrata de mermelada, receta tradicional de la deliciosa tarta italiana
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2025-12-03T17:30:43Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/recetas-de-carnes-y-aves/no-solo-pure-patatas-solo-unas-salchichas-cena-facil-cocina-catalana-para-no-gastar" class="head-new-item">
+  No es solo un puré de patatas, ni solo unas salchichas: es una cena fácil de la cocina catalana para no gastar de más 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2025-12-03T17:00:43Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/limpieza-y-orden/cinco-consejos-top-marie-kondo-para-mantener-siempre-orden-cocina-pequena" class="head-new-item">
+  Cinco consejos top de Marie Kondo para mantener siempre en orden una cocina pequeña 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2025-12-03T16:00:44Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="https://www.trendencias.com/shopping/llegan-viernes-a-lidl-zapatillas-que-parecen-on-cuestan-14-euros-ligeras-versatiles-comodas?utm_source=directoalpaladar&utm_medium=network&utm_campaign=headlines_reciente" class="head-new-item m-crosspost">
+  Llegan el viernes a Lidl las zapatillas que parecen ON y cuestan menos de 14 euros: ligeras, versátiles y cómodas 
+  <span class="head-item-meta">
+   de Trendencias <time class="js-header-post" datetime="2025-12-03T16:54:29Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+              <a href="/recetas-de-salsas-y-guarniciones/patatas-duquesa-tradicional-receta-guarnicion-francesa-facil-preparar-que-parece" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Patatas duquesa: una tradicional receta de guarnición francesa (más fácil de preparar de lo que parece)</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+               <a href="/seleccion/jamon-iberico-mercadona-perfecto-para-darse-capricho-cuesta-solo-22-euros-viene-cortado" class="head-new-item">
+  Este jamón ibérico de Mercadona elevará el picoteo del fin de semana, viene ya cortado y cuesta solo 22 euros
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2025-12-03T14:30:43Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+              <a href="/ingredientes-y-alimentos/como-hacer-tabla-quesos-perfecta" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Cómo hacer la tabla de quesos perfecta</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+               <a href="https://www.xataka.com/ecologia-y-naturaleza/mapaches-estan-haciendose-adorables-para-adaptarse-a-seres-humanos-asi-estamos-disneyficando-campo?utm_source=directoalpaladar&utm_medium=network&utm_campaign=headlines_reciente" class="head-new-item m-crosspost">
+  Por primera vez en miles de años, estamos viendo el proceso de domesticación de una especie en vivo y en directo: el de los mapaches
+  <span class="head-item-meta">
+   de Xataka <time class="js-header-post" datetime="2025-12-03T14:21:39Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+              <a href="/recetas-de-pescados-y-mariscos/receta-langostinos-al-horno-para-disfrutar-al-maximo-minimo-esfuerzo-tiempo-record" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Langostinos al horno, receta de para disfrutar al máximo con el mínimo esfuerzo y en tiempo record</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+ <li>
+               <a href="/recetas-vegetarianas/comidas-saludables-mundo-gratis-diciembre-solo-hay-que-saber-donde-buscar" class="head-new-item">
+  Una de las comidas más saludables del mundo es gratis en diciembre: solo hay que saber dónde buscar 
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2025-12-03T12:00:43Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/consumidores/universo-dragon-ball-z-cobra-vida-este-menu-edicion-limitada-kfc-sabor-japones" class="head-new-item">
+  KFC dedica todo un nuevo menú a Dragon Ball Z, con platos míticos como el pollo teriyaki o el katsu sando
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2025-12-03T11:48:00Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/seleccion/este-completo-kit-sorprenderas-a-ese-amigo-sibarita-whisky-podra-elaborarlo-casa-como-autentico-maestro" class="head-new-item">
+  Este completo set nos permite destilar nuestro propio whisky escocés en casa, sin barricas, pero con todo el sabor y aroma
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2025-12-03T11:46:43Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="/recetas-de-pasta/como-hacer-espaguetis-verdes-chile-poblano-pasta-navidena-tipica-mexico" class="head-new-item">
+  Cómo hacer espaguetis verdes con chile poblano, la pasta navideña típica de México
+  <span class="head-item-meta">
+   <time class="js-header-post" datetime="2025-12-03T11:00:44Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+               <a href="https://www.sensacine.com/television/noticias/noticia-1000178631.html?utm_source=directoalpaladar&utm_medium=network&utm_campaign=headlines_reciente" class="head-new-item m-crosspost">
+  Ni una infidelidad dolió tanto en 'La isla de las tentaciones': La lapidaria frase de Darío que deja sin palabras a Almudena
+  <span class="head-item-meta">
+   de Sensacine <time class="js-header-post" datetime="2025-12-03T11:07:35Z"></time>
+  </span>
+ </a>
+   </li>
+ <li>
+              <a href="/recetas-de-carnes-y-aves/siete-recetas-pollo-relleno-deliciosas-especiales" class="head-new-item m-republish" >
+        <span class="head-new-video-desc">Siete recetas de pollo relleno deliciosas y especiales</span>
+    <span class="head-item-meta">
+           Nuestros favoritos
+         </span>
+   </a>
+   </li>
+  </ul>
+  <p class="head-more-item"><a href="#" class="btn" id="view-more" data-blog="directoalpaladar">Ver más artículos</a></p>
+     <div class="head-menu-video">
+    <p class="nav-heading"> Directo al Paladar
+     <span>TV</span>
+    </p>
+    <ul id="recent-videos">
+          <li>
+  <a href="https://www.directoalpaladar.com/" class="head-new-item">
+   <span class="head-new-video-thumb">
+    <img alt="ACELGAS&#x20;GRATINADAS,&#x20;con&#x20;bechamel&#x20;y&#x20;parmesano,&#x20;una&#x20;CENA&#x20;F&#x00C1;CIL&#x20;Y&#x20;DELICIOSA" src="https://img.youtube.com/vi/W80PYN-dhuM/mqdefault.jpg" width="320" height="180">
+   </span>
+   <span class="head-new-video-desc">ACELGAS GRATINADAS, con bechamel y parmesano, una CENA FÁCIL Y DELICIOSA</span>
+  </a>
+ </li>
+     <li>
+  <a href="https://www.directoalpaladar.com/" class="head-new-item">
+   <span class="head-new-video-thumb">
+    <img alt="Los&#x20;trucos&#x20;para&#x20;preparar&#x20;el&#x20;MEJOR&#x20;BR&#x00D3;COLI&#x20;DEL&#x20;MUNDO" src="https://img.youtube.com/vi/i13D590n2GE/mqdefault.jpg" width="320" height="180">
+   </span>
+   <span class="head-new-video-desc">Los trucos para preparar el MEJOR BRÓCOLI DEL MUNDO</span>
+  </a>
+ </li>
+     <li>
+  <a href="https://www.directoalpaladar.com/" class="head-new-item">
+   <span class="head-new-video-thumb">
+    <img alt="HUEVOS&#x20;ROTOS&#x20;con&#x20;PATATAS,&#x20;JAM&#x00D3;N&#x20;y&#x20;un&#x20;ingrediente&#x20;que&#x20;lo&#x20;cambia&#x20;todo" src="https://img.youtube.com/vi/GKVESd6NEq4/mqdefault.jpg" width="320" height="180">
+   </span>
+   <span class="head-new-video-desc">HUEVOS ROTOS con PATATAS, JAMÓN y un ingrediente que lo cambia todo</span>
+  </a>
+ </li>
+    </ul>
+    <p class="head-more-item"><a href="#" class="btn" id="view-more-videos" data-blog="directoalpaladar">Ver más vídeos</a></p>
+   </div>
+   </div>
+</div>
+<nav id="search" class="head-menu-container head-menu-searchapp">
+</nav>
+<script>
+ document.getElementById("search").innerHTML = '\
+ <a href="#search" class="head-menu-toggler js-toggle"></a>\
+ <div class="head-menu">\
+  <a href="#search" class="close close-corner js-toggle">Inicio</a>\
+  <h2>Buscar</h2>\
+  <div class="hd-menu-srch-cr hd-srch-02">\
+   <div class="head-menu-search">\
+    <div id="google-cse-2" class="google-search"></div>\
+   </div>\
+  </div>\
+ </div>';
+</script>
+<nav class="nav nav-list nav-register" id="nav-twitter-register"></nav>
+<div id="react-login"></div>
+<nav class="nav nav-list nav-login" id="nav-login"></nav>
+<nav class="nav nav-list nav-register" id="nav-register"></nav>
+<nav class="nav nav-list nav-login" id="nav-recover"></nav>
+<nav class="nav nav-list nav-login" id="nav-pick"></nav>
+<nav class="nav nav-list nav-login" id="nav-recover-twitter"></nav>
+<nav class="nav nav-list nav-login" id="nav-recover-facebook"></nav>
+<div id="js-edit-user-profile-form"></div>
+<div id="js-user-comments"></div>
+<div id="js-modal-user-deactivate"></div>
+
+  
+    <div id="cookies-overlay" class="cookies-overlay"></div>
+   </div>
+  </div>
+ </div>
+</div>
+  <div id="div-gpt-int" style="width:1px; height:1px;">
+   </div>
+  <div id="div-gpt-int2" style="width:1px; height:1px;">
+   </div>
+ <script>
+ (function() {
+  var lazyElements    = document.getElementsByClassName('sf-lazy')
+  ,   srcsetSupported = false
+  ,   threshold;
+
+  if (!/Edge\/\d+/.test(navigator.userAgent)) {
+   srcsetSupported = 'srcset' in document.createElement('img');
+  }
+
+  function updateAttributes(element) {
+   var sfSrcset = element.getAttribute('data-sf-srcset') || element.getAttribute('sf-srcset');
+   var sfSrc = element.getAttribute('data-sf-src') || element.getAttribute('sf-src');
+   var sizes = element.getAttribute('data-sizes');
+   if (sfSrcset) {
+    element.setAttribute('srcset', sfSrcset);
+   }
+   if (sfSrc) {
+    element.setAttribute('src', sfSrc);
+   }
+   if (sizes) {
+    element.setAttribute('sizes', sizes);
+   }
+   element.classList.remove('sf-lazy');
+  }
+
+  threshold = (window.innerHeight || document.documentElement.clientHeight) + 100;
+  function lazyLoad() {
+   var coords, element, i, isVisible;
+   if (0 == lazyElements.length) {
+    document.removeEventListener('scroll', lazyLoad);
+    return false;
+   }
+
+   for (i = 0; i < lazyElements.length; i++) {
+    element = lazyElements[i];
+    coords = element.getBoundingClientRect();
+    isVisible = (coords.top >= 0 && coords.left >= 0 && coords.top) <= threshold;
+    if (isVisible) {
+     updateAttributes(element);
+    }
+   }
+  }
+
+  if (srcsetSupported) {
+   document.addEventListener('scroll', lazyLoad);
+   lazyLoad();
+  }
+ })();
+</script>
+ <script>
+ var WSL2 = WSL2 || {};
+ WSL2.config = WSL2.config || {};
+ WSL2.config.fbapikey = "357721611901";
+ WSL2.config.fbApiVersion = "v8.0";
+ WSL2.config.siteName = "Directo al Paladar";
+ WSL2.config.newsletterSiteName = "Al fondo hay sitio";
+ WSL2.config.gtmContainerId = "GTM-W4HG6RZ";
+ WSL2.config.gtmContainerIdGlobal = "GTM-TWST58M";
+ WSL2.config.imagePath = "https://img.weblogssl.com/css/directoalpaladar/p/common";
+ WSL2.config.desktopSiteUrl = "https://www.directoalpaladar.com";
+ WSL2.config.cookieDomain = "";
+ WSL2.config.enableEditorialRecommendations = "1";
+ WSL2.config.s3ImagePath = "https://i.blogs.es";
+ WSL2.config.socialTwitter = "directopaladar";
+ WSL2.config.enableUniformSocialShareGallery = "0";
+ WSL2.config.twitterSocial = "directopaladar";
+ WSL2.config.enableGiphyInComments = 0;
+ WSL2.config.enablePinterestSharing = 0;
+ WSL2.config.adminUrl = "https://admin.directoalpaladar.com";
+ WSL2.config.blogDomain = "directoalpaladar.com";
+ WSL2.config.blogMeta = {
+  siteName: "directoalpaladar",
+  mnemonic: "DAP",
+  blogDomain: "directoalpaladar.com"
+ };
+ WSL2.config.showMxSiteFloatingBox = 0;
+ WSL2.config.enableAdblockMonetization = 1;
+ WSL2.config.insuradsLink = "";
+ WSL2.config.uniformDateTimeFormat = "Y-m-d\TH:i:s\Z";
+ WSL2.config.dailymotionAutoplayLimit = 0;
+ WSL2.config.enableWebpImage = "0";
+ WSL2.config.productSiteUrl = "https://www.xataka.com";
+ WSL2.config.homepageVersion = "v5";
+ WSL2.config.desktopDailymotionPlayerId = "x8grx";
+ WSL2.config.mobileDailymotionPlayerId = "x8grw";
+ WSL2.config.dailymotionPlayerIdAutoplayOff = "xbl39";
+ WSL2.config.enableOneLinkMessage = 1;
+ WSL2.config.disableDatetimeMention = "1";
+ WSL2.config.grecaptchaSiteKey = "6LeiX64UAAAAADw_CPFU4cciCrgrVCwbF_R6yFGu";
+ WSL2.config.timeZone = "Europe/Madrid";
+ WSL2.config.locale = "es";
+ WSL2.config.sendInternalPromotionAnalytics = "1";
+ WSL2.config.enableVideoPrebid = 1;
+ WSL2.config.enableGoogleLogin = 1;
+ WSL2.config.enableSocialLogin = 1;
+ WSL2.config.removeSocialLogin = 1;
+ WSL2.config.enableTaboolaIntegration = "0";
+ WSL2.config.taboolaPublisherId = "webediaes-network";
+ WSL2.config.enablePerformanceImprovements = "0";
+ WSL2.config.enableGoogleCustomSearchEngine = "1";
+ WSL2.config.enableInpEventLog = 0;
+ WSL2.config.enableGTMdidomi = "";
+ WSL2.config.enableOpenweb = 1;
+ WSL2.config.openwebSpotId = "sp_elHFZQu4";
+ WSL2.config.enablePageViewParams = "1";
+ WSL2.config.enableInternalClicks = "1";
+ WSL2.config.enableNewSocialShareFB = 1
+ WSL2.config.enableCoAuthor = 1
+ WSL2.config.enableLimitedTimeDeal = "1"
+ WSL2.config.enableDynamicIU = "1";
+ WSL2.config.enableCtcImpressions = "1";
+ WSL2.config.enableBrandEventsTracking = "1";
+ WSL2.config.enableXatakaXtra = "";
+</script>
+<script>
+ function injectScript(src) {
+  var script = document.createElement('script');
+  script.src = src;
+  script.async = true;
+  if ('ES' === window.country) {
+    script.type = 'didomi/javascript';
+  }
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(script, firstScriptTag);
+ }
+</script>
+<script>
+ WSL2.config.postSubType = "special";
+ WSL2.config.redirectDesktopRoot = 'false';
+ WSL2.config.postId = 113349;
+ WSL2.config.postTitle = "La\u0020Generaci\u00F3n\u0020Z\u0020ha\u0020empeorado\u0020a\u00FAn\u0020m\u00E1s\u0020el\u0020caf\u00E9\u0020manchado,\u0020pero\u0020ahora\u0020lo\u0020llaman\u0020\u0027dirty\u0020coffee\u0027\u0020y\u0020est\u00E1\u0020de\u0020moda\u0020";
+ WSL2.config.tweetText = "Comentario%20a%20La%20Generaci%C3%B3n%20Z%20ha%20empeorado%20a%C3%BAn%20m%C3%A1s%20el%20caf%C3%A9%20manchado%2C%20pero%20ahora%20lo%20llaman%20%27dirty%20coffee%27%20y%20est%C3%A1%20de%20moda%20";
+ WSL2.config.twitterName = "";
+ WSL2.config.postUrl = "https://www.directoalpaladar.com/actualidad-1/generacion-z-ha-empeorado-cafe-manchado-ahora-llaman-dirty-coffee-esta-moda";
+ WSL2.config.recommendationEngineVersion = 1;
+ WSL2.config.device = "desktop";
+ WSL2.config.enableNanomediaHeader = 0;
+</script>
+ <script src="https://img.weblogssl.com/LPbackend/prod/v3/js/runtime.0870f327.js" defer></script><script src="https://img.weblogssl.com/LPbackend/prod/v3/js/241.7175a57a.js" defer></script><script src="https://img.weblogssl.com/LPbackend/prod/v3/js/postpage.6e23cf44.js" defer></script>
+ <script>
+ window._nli=window._nli||[],
+ function(){
+  var n,e,i=window._nli||(window._nli=[]);i.loaded||
+  ((n=document.createElement("script")).defer=!0,n.src="https://l.directoalpaladar.com/sdk.js",
+  (e=document.getElementsByTagName("script")[0])
+  .parentNode.insertBefore(n,e),i.loaded=!0)
+ }();
+</script>
+ </body>
+</html>

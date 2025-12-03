@@ -39,7 +39,40 @@ class SistemaExpertoBebidas:
             "No quiero leche en mi bebida."
         ]
 
+        self.root.withdraw()
+        self.mostrar_bienvenida()
         self.crear_interfaz()
+
+    def mostrar_bienvenida(self):
+        ventana_bienvenida = tk.Toplevel(self.root)
+        ventana_bienvenida.title("Bienvenido a Barista Experto")
+        ventana_bienvenida.geometry("600x600")
+        ventana_bienvenida.configure(bg=COLOR_FONDO)
+
+        ventana_bienvenida.transient(self.root)
+        ventana_bienvenida.grab_set()
+
+        tk.Label(ventana_bienvenida, text="¡Bienvenido a Barista Experto!", font=("Helvetica", 24, "bold"), fg=COLOR_ACCENTO, bg=COLOR_FONDO).pack(pady=(40, 20))
+
+        try:
+            img = Image.open("Dentista-Logo.png")
+            img = img.resize((300, 300), Image.Resampling.LANCZOS)
+            photo = ImageTk.PhotoImage(img)
+            lbl_imagen = tk.Label(ventana_bienvenida, image=photo, bg=COLOR_FONDO)
+            lbl_imagen.image = photo
+            lbl_imagen.pack(pady=10)
+        except FileNotFoundError:
+            tk.Label(ventana_bienvenida, text="(Logo no encontrado)", bg=COLOR_FONDO).pack(pady=10)
+
+        tk.Label(ventana_bienvenida, text="Tu recomendador de bebidas personal.", font=("Arial", 14), bg=COLOR_FONDO, fg=COLOR_TEXTO).pack(pady=20)
+
+        def continuar():
+            ventana_bienvenida.destroy()
+            self.root.deiconify()
+
+        tk.Button(ventana_bienvenida, text="CONTINUAR", bg=COLOR_ACCENTO, fg="white", font=("Arial", 12, "bold"), padx=20, pady=10, command=continuar).pack(pady=30)
+
+        ventana_bienvenida.wait_window()
 
     def cargar_datos(self):
         if not os.path.exists(ARCHIVO_JSON):

@@ -74,24 +74,6 @@
   {
     "Sabor": "Prefiero las bebidas con un toque dulce.",
     "Temperatura": "Me gusta que esté fría, algo refrescante.",
-    "Intensidad": "Me gustan las bebidas suaves, casi sin sabor fuerte.",
-    "Leche": "Me gusta con leche entera.",
-    "Diagnostico": "Malteada de Café Clásica",
-    "Explicacion": "Cremosa y dulce, ideal como postre líquido.",
-    "Imagen": "malteada.jpg"
-  },
-  {
-    "Sabor": "Prefiero las bebidas con un toque dulce.",
-    "Temperatura": "Me gusta que esté fría, algo refrescante.",
-    "Intensidad": "Me gustan las bebidas suaves, casi sin sabor fuerte.",
-    "Leche": "No quiero leche en mi bebida.",
-    "Diagnostico": "Té Helado de Durazno (Iced Tea)",
-    "Explicacion": "Sin lácteos, suave y muy dulce. Perfecto para el calor.",
-    "Imagen": "te_helado.jpg"
-  },
-  {
-    "Sabor": "Prefiero las bebidas con un toque dulce.",
-    "Temperatura": "Me gusta que esté fría, algo refrescante.",
     "Intensidad": "Prefiero un sabor intermedio, equilibrado.",
     "Leche": "Me gustaría que tenga leche de almendra.",
     "Diagnostico": "Iced Latte de Caramelo (Almendra)",
