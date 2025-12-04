@@ -6,8 +6,8 @@ import os
 
 # --- CONFIGURACIÓN ---
 ARCHIVO_JSON = 'conocimientos_bebidas.json'
-COLOR_FONDO = "#FDF5E6"
-COLOR_ACCENTO = "#6F4E37"
+COLOR_FONDO = "#FDF5E6"       # Un tono crema/café suave
+COLOR_ACCENTO = "#6F4E37"     # Color Café
 COLOR_TEXTO = "#3E2723"
 
 class SistemaExpertoBebidas:
@@ -17,7 +17,7 @@ class SistemaExpertoBebidas:
         self.root.geometry("1000x650")
         self.root.configure(bg=COLOR_FONDO)
 
-        # Opciones
+        # Opciones extraídas del PDF (Página 2)
         self.opciones_sabor = [
             "Prefiero las bebidas con un toque dulce.",
             "Me gustan más con sabor amargo"
@@ -39,40 +39,7 @@ class SistemaExpertoBebidas:
             "No quiero leche en mi bebida."
         ]
 
-        self.root.withdraw()
-        self.mostrar_bienvenida()
         self.crear_interfaz()
-
-    def mostrar_bienvenida(self):
-        ventana_bienvenida = tk.Toplevel(self.root)
-        ventana_bienvenida.title("Bienvenido a Barista Experto")
-        ventana_bienvenida.geometry("600x600")
-        ventana_bienvenida.configure(bg=COLOR_FONDO)
-
-        ventana_bienvenida.transient(self.root)
-        ventana_bienvenida.grab_set()
-
-        tk.Label(ventana_bienvenida, text="¡Bienvenido a Barista Experto!", font=("Helvetica", 24, "bold"), fg=COLOR_ACCENTO, bg=COLOR_FONDO).pack(pady=(40, 20))
-
-        try:
-            img = Image.open("Dentista-Logo.png")
-            img = img.resize((300, 300), Image.Resampling.LANCZOS)
-            photo = ImageTk.PhotoImage(img)
-            lbl_imagen = tk.Label(ventana_bienvenida, image=photo, bg=COLOR_FONDO)
-            lbl_imagen.image = photo
-            lbl_imagen.pack(pady=10)
-        except FileNotFoundError:
-            tk.Label(ventana_bienvenida, text="(Logo no encontrado)", bg=COLOR_FONDO).pack(pady=10)
-
-        tk.Label(ventana_bienvenida, text="Tu recomendador de bebidas personal.", font=("Arial", 14), bg=COLOR_FONDO, fg=COLOR_TEXTO).pack(pady=20)
-
-        def continuar():
-            ventana_bienvenida.destroy()
-            self.root.deiconify()
-
-        tk.Button(ventana_bienvenida, text="CONTINUAR", bg=COLOR_ACCENTO, fg="white", font=("Arial", 12, "bold"), padx=20, pady=10, command=continuar).pack(pady=30)
-
-        ventana_bienvenida.wait_window()
 
     def cargar_datos(self):
         if not os.path.exists(ARCHIVO_JSON):
@@ -90,28 +57,28 @@ class SistemaExpertoBebidas:
             json.dump(datos, archivo, indent=2, ensure_ascii=False)
 
     def crear_interfaz(self):
-        # Frame Izquierdo
+        # Frame Izquierdo (Preguntas)
         frame_izq = tk.Frame(self.root, bg=COLOR_FONDO, padx=30, pady=30)
         frame_izq.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
         tk.Label(frame_izq, text="PREFERENCIAS DE TU BEBIDA", font=("Helvetica", 18, "bold"), fg=COLOR_ACCENTO, bg=COLOR_FONDO).pack(anchor="w", pady=(0, 20))
 
-        # Sabor
+        # Pregunta 1: Sabor
         tk.Label(frame_izq, text="¿Qué tipo de sabor prefieres?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
         self.combo_sabor = ttk.Combobox(frame_izq, values=self.opciones_sabor, width=50, state="readonly")
         self.combo_sabor.pack(anchor="w")
 
-        #Temperatura
+        # Pregunta 2: Temperatura
         tk.Label(frame_izq, text="¿Cómo prefieres la temperatura?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
         self.combo_temp = ttk.Combobox(frame_izq, values=self.opciones_temperatura, width=50, state="readonly")
         self.combo_temp.pack(anchor="w")
 
-        #Intensidad
+        # Pregunta 3: Intensidad
         tk.Label(frame_izq, text="¿Qué tan intensa te gusta tu bebida?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
         self.combo_int = ttk.Combobox(frame_izq, values=self.opciones_intensidad, width=50, state="readonly")
         self.combo_int.pack(anchor="w")
 
-        #Leche
+        # Pregunta 4: Leche
         tk.Label(frame_izq, text="¿Qué tipo de leche prefieres?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
         self.combo_leche = ttk.Combobox(frame_izq, values=self.opciones_leche, width=50, state="readonly")
         self.combo_leche.pack(anchor="w")
@@ -124,21 +91,21 @@ class SistemaExpertoBebidas:
         tk.Button(frame_btn, text="LIMPIAR", bg="#D7CCC8", fg=COLOR_TEXTO, font=("Arial", 11), padx=15, pady=5, command=self.limpiar).pack(side=tk.LEFT)
 
 
-        #Frame Derecho
+        # Frame Derecho (Resultados)
         frame_der = tk.Frame(self.root, bg="white", padx=30, pady=30, relief="raised", borderwidth=1)
         frame_der.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=20, pady=20)
 
         tk.Label(frame_der, text="RECOMENDACIÓN", font=("Helvetica", 16, "bold"), fg=COLOR_ACCENTO, bg="white").pack(pady=(10, 5))
         
-        #label resultado
+        # Area de resultado
         self.lbl_resultado = tk.Label(frame_der, text="...", font=("Arial", 14, "bold"), fg=COLOR_TEXTO, bg="white", wraplength=350)
         self.lbl_resultado.pack(pady=10)
 
-        #Imagen
+        # Imagen
         self.lbl_imagen = tk.Label(frame_der, bg="white")
         self.lbl_imagen.pack(pady=10)
 
-        #Explicación
+        # Explicación (Oculta inicialmente)
         self.btn_explicacion = tk.Button(frame_der, text="¿Por qué esta bebida?", state="disabled", command=self.mostrar_explicacion)
         self.btn_explicacion.pack(pady=10)
         
@@ -179,7 +146,7 @@ class SistemaExpertoBebidas:
         self.lbl_explicacion.config(text="") # Ocultar explicación previa
         self.btn_explicacion.config(state="normal")
         
-        #Cargar imagen
+        # Cargar imagen
         try:
             if os.path.exists(regla["Imagen"]):
                 img = Image.open(regla["Imagen"])

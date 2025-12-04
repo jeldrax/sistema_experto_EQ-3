@@ -516,42 +516,6 @@
     "Sabor": "Me gustan más con sabor amargo",
     "Temperatura": "La quiero caliente, como café recién hecho.",
     "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
-    "Leche": "Me gusta con leche entera.",
-    "Diagnostico": "Flat White Intenso",
-    "Explicacion": "Ristrettos dobles con capa fina de leche. Muy fuerte.",
-    "Imagen": "flat_white_strong.jpg"
-  },
-  {
-    "Sabor": "Me gustan más con sabor amargo",
-    "Temperatura": "La quiero caliente, como café recién hecho.",
-    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
-    "Leche": "No quiero leche en mi bebida.",
-    "Diagnostico": "Espresso Doble (Doppio)",
-    "Explicacion": "La esencia pura del café. Intenso, caliente y amargo.",
-    "Imagen": "doppio.jpg"
-  },
-  {
-    "Sabor": "Me gustan más con sabor amargo",
-    "Temperatura": "La quiero caliente, como café recién hecho.",
-    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
-    "Leche": "No quiero leche en mi bebida.",
-    "Diagnostico": "Ristretto",
-    "Explicacion": "Extracción corta, menos agua, cuerpo más denso y fuerte.",
-    "Imagen": "ristretto.jpg"
-  },
-  {
-    "Sabor": "Me gustan más con sabor amargo",
-    "Temperatura": "La quiero caliente, como café recién hecho.",
-    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
-    "Leche": "No quiero leche en mi bebida.",
-    "Diagnostico": "Café Turco",
-    "Explicacion": "Sin filtrar, muy intenso, con los posos en el fondo.",
-    "Imagen": "turco.jpg"
-  },
-  {
-    "Sabor": "Me gustan más con sabor amargo",
-    "Temperatura": "La quiero caliente, como café recién hecho.",
-    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
     "Leche": "No quiero leche en mi bebida.",
     "Diagnostico": "Lungo",
     "Explicacion": "Espresso con más paso de agua, más amargo y cafeína.",
