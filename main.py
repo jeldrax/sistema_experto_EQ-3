@@ -14,10 +14,10 @@ class SistemaExpertoBebidas:
     def __init__(self, root):
         self.root = root
         self.root.title("Barista Experto - Recomendador de Bebidas")
-        self.root.geometry("1000x700") # Aumenté la altura para los botones de navegación
+        self.root.geometry("1000x700") 
         self.root.configure(bg=COLOR_FONDO)
 
-        # Variables para manejar múltiples resultados (duplicados)
+        # Variables para manejar múltiples resultados
         self.resultados_encontrados = []
         self.indice_actual = 0
 
@@ -42,7 +42,40 @@ class SistemaExpertoBebidas:
             "No quiero leche en mi bebida."
         ]
 
-        self.crear_interfaz()
+        # --- CAMBIO AQUÍ: Lógica de Bienvenida ---
+        self.root.withdraw()      # 1. Ocultar la ventana principal
+        self.mostrar_bienvenida() # 2. Mostrar la bienvenida
+        self.root.deiconify()     # 4. Mostrar la ventana principal (al cerrar bienvenida)
+        self.crear_interfaz()     # 5. Cargar la interfaz
+
+    def mostrar_bienvenida(self):
+        """Muestra una ventana de bienvenida antes de iniciar."""
+        vent_bienvenida = tk.Toplevel(self.root)
+        vent_bienvenida.title("Bienvenido")
+        vent_bienvenida.geometry("500x400")
+        vent_bienvenida.configure(bg=COLOR_FONDO)
+        
+        # Centrar la ventana (opcional, pero se ve mejor)
+        x = (self.root.winfo_screenwidth() // 2) - (500 // 2)
+        y = (self.root.winfo_screenheight() // 2) - (400 // 2)
+        vent_bienvenida.geometry(f"500x400+{x}+{y}")
+
+        # Contenido
+        tk.Label(vent_bienvenida, text="☕", font=("Arial", 60), bg=COLOR_FONDO).pack(pady=(30, 8))
+        
+        tk.Label(vent_bienvenida, text="¡Bienvenido a\nBarista Experto!", 
+                 font=("Helvetica", 24, "bold"), fg=COLOR_ACCENTO, bg=COLOR_FONDO, justify="center").pack(pady=10)
+
+        tk.Label(vent_bienvenida, text="Encuentra tu bebida ideal respondiendo\nunas sencillas preguntas.", 
+                 font=("Arial", 12), fg=COLOR_TEXTO, bg=COLOR_FONDO, justify="center").pack(pady=10)
+
+        # Botón para cerrar y continuar
+        tk.Button(vent_bienvenida, text="COMENZAR", bg=COLOR_ACCENTO, fg="white", 
+                  font=("Arial", 12, "bold"), padx=20, pady=10, cursor="hand2",
+                  command=vent_bienvenida.destroy).pack(pady=40)
+
+        # 3. Esperar aquí hasta que se cierre esta ventana
+        self.root.wait_window(vent_bienvenida)
 
     def cargar_datos(self):
         if not os.path.exists(ARCHIVO_JSON):
@@ -64,7 +97,7 @@ class SistemaExpertoBebidas:
         frame_izq = tk.Frame(self.root, bg=COLOR_FONDO, padx=30, pady=30)
         frame_izq.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-        tk.Label(frame_izq, text="Barista experto", font=("Helvetica", 18, "bold"), fg=COLOR_ACCENTO, bg=COLOR_FONDO).pack(anchor="w", pady=(0, 20))
+        tk.Label(frame_izq, text="Barista virtual", font=("Helvetica", 18, "bold"), fg=COLOR_ACCENTO, bg=COLOR_FONDO).pack(anchor="w", pady=(0, 30))
 
         # Preguntas
         tk.Label(frame_izq, text="¿Qué tipo de sabor prefieres?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
@@ -109,6 +142,7 @@ class SistemaExpertoBebidas:
         self.lbl_imagen = tk.Label(frame_der, bg="white")
         self.lbl_imagen.pack(pady=10)
 
+        # Botones de Navegación
         self.frame_nav = tk.Frame(frame_der, bg="white")
         self.frame_nav.pack(pady=5)
         
@@ -145,14 +179,11 @@ class SistemaExpertoBebidas:
                 regla["Leche"] == leche):
                 
                 self.resultados_encontrados.append(regla) 
-                # Es iterativo por que vuelve a llaamr a regla para ver si hay más coincidencias
         
-        # En caso de que si se encocntró respuesta
         if len(self.resultados_encontrados) > 0:
             self.indice_actual = 0
             self.mostrar_resultado_actual()
         else:
-            # En caso de no encontrar respuesta
             respuesta = messagebox.askyesno("Sin conocimiento", "No sé qué bebida recomendar para esa combinación exacta.\n\n¿Quieres enseñarme?")
             if respuesta:
                 self.abrir_aprendizaje(sabor, temp, intensidad, leche)
@@ -161,19 +192,16 @@ class SistemaExpertoBebidas:
         regla = self.resultados_encontrados[self.indice_actual]
         total = len(self.resultados_encontrados)
 
-        # Actualizar textos e imagen
         self.lbl_resultado.config(text=regla["Diagnostico"])
         self.explicacion_pendiente = regla["Explicacion"]
         self.lbl_explicacion.config(text="") 
         self.btn_explicacion.config(state="normal")
-        
         
         if total > 1:
             self.lbl_contador.config(text=f"Resultado {self.indice_actual + 1} de {total}")
         else:
             self.lbl_contador.config(text="")
 
-        # Controlar botones de navegación
         if total > 1:
             self.btn_anterior.config(state="normal" if self.indice_actual > 0 else "disabled")
             self.btn_siguiente.config(state="normal" if self.indice_actual < total - 1 else "disabled")
@@ -181,7 +209,6 @@ class SistemaExpertoBebidas:
             self.btn_anterior.config(state="disabled")
             self.btn_siguiente.config(state="disabled")
 
-        # Cargar imagen
         try:
             if os.path.exists(regla["Imagen"]):
                 img = Image.open(regla["Imagen"])
@@ -253,8 +280,6 @@ class SistemaExpertoBebidas:
             self.guardar_datos(nuevo)
             messagebox.showinfo("Éxito", "¡Gracias! Ahora soy más experto.")
             vent.destroy()
-            
-            # Volver a consultar para que aparezca la nueva opción junto con las otras
             self.consultar()
 
         tk.Button(vent, text="GUARDAR CONOCIMIENTO", bg=COLOR_ACCENTO, fg="white", command=guardar).pack(pady=20)
