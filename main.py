@@ -4,6 +4,8 @@ from PIL import Image, ImageTk
 import json
 import os
 
+#========================Sistema Experto de Inferencia Determinista===================
+
 # --- CONFIGURACIÓN ---
 ARCHIVO_JSON = 'conocimientos_bebidas.json'
 COLOR_FONDO = "#FDF5E6"
@@ -17,6 +19,7 @@ class SistemaExpertoBebidas:
         self.root.geometry("1000x650")
         self.root.configure(bg=COLOR_FONDO)
 
+        # Grupo de listas (dominio de valores permitido)
         self.opciones_sabor = [
             "Prefiero las bebidas con un toque dulce.",
             "Me gustan más con sabor amargo"
@@ -48,6 +51,7 @@ class SistemaExpertoBebidas:
                 return json.load(archivo)
         except:
             return []
+        #convierte el JSON en una lista de diccionarios de Python
 
     def guardar_datos(self, nuevo_dato):
         datos = self.cargar_datos()
@@ -110,6 +114,7 @@ class SistemaExpertoBebidas:
         self.lbl_explicacion = tk.Label(frame_der, text="", font=("Arial", 10, "italic"), fg="#5D4037", bg="white", wraplength=350)
         self.lbl_explicacion.pack(pady=5)
 
+    #Algoritmo de Búsqueda (Pattern Matching)
     def consultar(self):
         sabor = self.combo_sabor.get()
         temp = self.combo_temp.get()
