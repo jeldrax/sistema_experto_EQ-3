@@ -1,5 +1,151 @@
 [
   {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "La quiero caliente, como café recién hecho.",
+    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
+    "Leche": "Me gusta con leche entera.",
+    "Diagnostico": "Latte intenso",
+    "Explicacion": "La combinación de sabor dulce, baja intensidad y temperatura fría apunta a bebidas frescas y ligeras, ideales para personas que prefieren bebidas suaves.",
+    "Imagen": "latte_intens.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "La quiero caliente, como café recién hecho.",
+    "Intensidad": "Prefiero un sabor intermedio, equilibrado.",
+    "Leche": "Me gustaría que tenga leche de almendra.",
+    "Diagnostico": "Café  negro con leche y Almendras",
+    "Explicacion": "Por qué no?",
+    "Imagen": "cafe_negro.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "La quiero caliente, como café recién hecho.",
+    "Intensidad": "Prefiero un sabor intermedio, equilibrado.",
+    "Leche": "Prefiero que sea deslactosada.",
+    "Diagnostico": "Latte sin azucar",
+    "Explicacion": "Por qué no?",
+    "Imagen": "latte_sin_azucar.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "La quiero caliente, como café recién hecho.",
+    "Intensidad": "Prefiero un sabor intermedio, equilibrado.",
+    "Leche": "Me gusta con leche entera.",
+    "Diagnostico": "Macciato",
+    "Explicacion": "Por qué no?",
+    "Imagen": "macchiato.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "La quiero caliente, como café recién hecho.",
+    "Intensidad": "Prefiero un sabor intermedio, equilibrado.",
+    "Leche": "No quiero leche en mi bebida.",
+    "Diagnostico": "Café Americano",
+    "Explicacion": "Por qué no?",
+    "Imagen": "cafe_americano.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "La quiero caliente, como café recién hecho.",
+    "Intensidad": "Me gustan las bebidas suaves, casi sin sabor fuerte.",
+    "Leche": "Me gustaría que tenga leche de almendra.",
+    "Diagnostico": "Café almendrado",
+    "Explicacion": "Por qué no?",
+    "Imagen": "cafe_almendrado.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "La quiero caliente, como café recién hecho.",
+    "Intensidad": "Prefiero un sabor intermedio, equilibrado.",
+    "Leche": "Prefiero que sea deslactosada.",
+    "Diagnostico": "Café suave",
+    "Explicacion": "Por qué no?",
+    "Imagen": "cafe_suave.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "La quiero caliente, como café recién hecho.",
+    "Intensidad": "Prefiero un sabor intermedio, equilibrado.",
+    "Leche": "Me gusta con leche entera.",
+    "Diagnostico": "Moka negro",
+    "Explicacion": "Por qué no?",
+    "Imagen": "moka_negro.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "La quiero caliente, como café recién hecho.",
+    "Intensidad": "Prefiero un sabor intermedio, equilibrado.",
+    "Leche": "No quiero leche en mi bebida.",
+    "Diagnostico": "Café vertido",
+    "Explicacion": "Por qué no?",
+    "Imagen": "cafe_vertido.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "Prefiero que esté templada, ni muy fría ni muy caliente.",
+    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
+    "Leche": "Me gustaría que tenga leche de almendra.",
+    "Diagnostico": "Café almendra tibio",
+    "Explicacion": "Por que si",
+    "Imagen": "cafe_almendrado.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "Prefiero que esté templada, ni muy fría ni muy caliente.",
+    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
+    "Leche": "Prefiero que sea deslactosada.",
+    "Diagnostico": "Cortado intenso",
+    "Explicacion": "Por que si",
+    "Imagen": "cortado_intenso.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "Prefiero que esté templada, ni muy fría ni muy caliente.",
+    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
+    "Leche": "Me gusta con leche entera.",
+    "Diagnostico": "Tibio cortado",
+    "Explicacion": "Por que si",
+    "Imagen": "tibio_cortado.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "Prefiero que esté templada, ni muy fría ni muy caliente.",
+    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
+    "Leche": "No quiero leche en mi bebida.",
+    "Diagnostico": "Doppio templado",
+    "Explicacion": "Por que si",
+    "Imagen": "doppio.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "Prefiero que esté templada, ni muy fría ni muy caliente.",
+    "Intensidad": "Prefiero un sabor intermedio, equilibrado.",
+    "Leche": "",
+    "Diagnostico": "#",
+    "Explicacion": "#",
+    "Imagen": "#.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "Prefiero que esté templada, ni muy fría ni muy caliente.",
+    "Intensidad": "Prefiero un sabor intermedio, equilibrado.",
+    "Leche": "Me gustaría que tenga leche de almendra.",
+    "Diagnostico": "Café tercios almendrado",
+    "Explicacion": "Por que si",
+    "Imagen": "cafe_almendrado.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "Prefiero que esté templada, ni muy fría ni muy caliente.",
+    "Intensidad": "Prefiero un sabor intermedio, equilibrado.",
+    "Leche": "Prefiero que sea deslactosada.",
+    "Diagnostico": "Macchiato de temporada",
+    "Explicacion": "Por que si",
+    "Imagen": "macchiato.jpg"
+  },
+
+
+  {
     "Sabor": "Prefiero las bebidas con un toque dulce.",
     "Temperatura": "Me gusta que esté fría, algo refrescante.",
     "Intensidad": "Me gustan las bebidas suaves, casi sin sabor fuerte.",
@@ -223,15 +369,6 @@
     "Diagnostico": "Vainilla Latte Caliente",
     "Explicacion": "Cremoso, muy caliente y con aroma dulce a vainilla.",
     "Imagen": "vainilla_latte.jpg"
-  },
-  {
-    "Sabor": "Prefiero las bebidas con un toque dulce.",
-    "Temperatura": "La quiero caliente, como café recién hecho.",
-    "Intensidad": "Me gustan las bebidas suaves, casi sin sabor fuerte.",
-    "Leche": "No quiero leche en mi bebida.",
-    "Diagnostico": "Infusión de Frutos Rojos",
-    "Explicacion": "Caliente, afrutada y dulce, sin cafeína ni lácteos.",
-    "Imagen": "infusion.jpg"
   },
   {
     "Sabor": "Prefiero las bebidas con un toque dulce.",
@@ -538,5 +675,77 @@
     "Diagnostico": "Infusión de Manzanilla con Miel",
     "Explicacion": "Suave, dulce y a temperatura perfecta para beber.",
     "Imagen": "manzanilla.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "La quiero caliente, como café recién hecho.",
+    "Intensidad": "Me gustan las bebidas suaves, casi sin sabor fuerte.",
+    "Leche": "Me gusta con leche entera.",
+    "Diagnostico": "Moka blanco",
+    "Explicacion": "Bueno para a levantar el animo",
+    "Imagen": "mocha.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "Prefiero que esté templada, ni muy fría ni muy caliente.",
+    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
+    "Leche": "No quiero leche en mi bebida.",
+    "Diagnostico": "Doppio Templado",
+    "Explicacion": "Por que es agradeble para acompañar en las mañánas",
+    "Imagen": "doppio.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "Prefiero que esté templada, ni muy fría ni muy caliente.",
+    "Intensidad": "Prefiero un sabor intermedio, equilibrado.",
+    "Leche": "Prefiero que sea deslactosada.",
+    "Diagnostico": "Maccgiato Templado",
+    "Explicacion": "De buen sabor sin tener que quemarse",
+    "Imagen": "macchiato.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "Me gusta que esté fría, algo refrescante.",
+    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
+    "Leche": "Prefiero que sea deslactosada.",
+    "Diagnostico": "Iced Cortado",
+    "Explicacion": "Bueno para despertar",
+    "Imagen": "iced_americano.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "Me gusta que esté fría, algo refrescante.",
+    "Intensidad": "Me gustan las bebidas suaves, casi sin sabor fuerte.",
+    "Leche": "Prefiero que sea deslactosada.",
+    "Diagnostico": "Café blanco",
+    "Explicacion": "Para no sobrecargarte de un sabor tan fuerte",
+    "Imagen": "cafe_con_leche.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "Me gusta que esté fría, algo refrescante.",
+    "Intensidad": "Me gustan las bebidas suaves, casi sin sabor fuerte.",
+    "Leche": "Me gusta con leche entera.",
+    "Diagnostico": "Expresso on the rocks",
+    "Explicacion": "Conocido por su sabor concentrado",
+    "Imagen": "espresso.jpg"
+  },
+  {
+    "Sabor": "Prefiero las bebidas con un toque dulce.",
+    "Temperatura": "Prefiero que esté templada, ni muy fría ni muy caliente.",
+    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
+    "Leche": "Me gusta con leche entera.",
+    "Diagnostico": "Babyccino Dulce",
+    "Explicacion": "Opción divertida sin cafeína",
+    "Imagen": "mocha.jpg"
+  },
+  {
+    "Sabor": "Me gustan más con sabor amargo",
+    "Temperatura": "La quiero caliente, como café recién hecho.",
+    "Intensidad": "Me gustan las bebidas muy intensas, con sabor marcado",
+    "Leche": "Me gusta con leche entera.",
+    "Diagnostico": "Mocha Negro",
+    "Explicacion": "Sabor intenso, menos dulce y de experiencia sofisticada",
+    "Imagen": "vainilla_latte.jpg"
   }
 ]
