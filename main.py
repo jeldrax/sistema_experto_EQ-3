@@ -4,8 +4,6 @@ from PIL import Image, ImageTk
 import json
 import os
 
-#========================Sistema Experto de Inferencia Determinista===================
-
 # --- CONFIGURACIÓN ---
 ARCHIVO_JSON = 'conocimientos_bebidas.json'
 COLOR_FONDO = "#FDF5E6"
@@ -16,10 +14,13 @@ class SistemaExpertoBebidas:
     def __init__(self, root):
         self.root = root
         self.root.title("Barista Experto - Recomendador de Bebidas")
-        self.root.geometry("1000x650")
+        self.root.geometry("1000x700") # Aumenté la altura para los botones de navegación
         self.root.configure(bg=COLOR_FONDO)
 
-        # Grupo de listas (dominio de valores permitido)
+        # Variables para manejar múltiples resultados (duplicados)
+        self.resultados_encontrados = []
+        self.indice_actual = 0
+
         self.opciones_sabor = [
             "Prefiero las bebidas con un toque dulce.",
             "Me gustan más con sabor amargo"
@@ -51,7 +52,6 @@ class SistemaExpertoBebidas:
                 return json.load(archivo)
         except:
             return []
-        #convierte el JSON en una lista de diccionarios de Python
 
     def guardar_datos(self, nuevo_dato):
         datos = self.cargar_datos()
@@ -60,33 +60,30 @@ class SistemaExpertoBebidas:
             json.dump(datos, archivo, indent=2, ensure_ascii=False)
 
     def crear_interfaz(self):
-        # lado Izquierdo
+        # Frame Izquierdo
         frame_izq = tk.Frame(self.root, bg=COLOR_FONDO, padx=30, pady=30)
         frame_izq.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-        tk.Label(frame_izq, text="PREFERENCIAS DE TU BEBIDA", font=("Helvetica", 18, "bold"), fg=COLOR_ACCENTO, bg=COLOR_FONDO).pack(anchor="w", pady=(0, 20))
+        tk.Label(frame_izq, text="Barista experto", font=("Helvetica", 18, "bold"), fg=COLOR_ACCENTO, bg=COLOR_FONDO).pack(anchor="w", pady=(0, 20))
 
-        #pregunta 1
+        # Preguntas
         tk.Label(frame_izq, text="¿Qué tipo de sabor prefieres?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
         self.combo_sabor = ttk.Combobox(frame_izq, values=self.opciones_sabor, width=50, state="readonly")
         self.combo_sabor.pack(anchor="w")
 
-        #pregunta 2
         tk.Label(frame_izq, text="¿Cómo prefieres la temperatura?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
         self.combo_temp = ttk.Combobox(frame_izq, values=self.opciones_temperatura, width=50, state="readonly")
         self.combo_temp.pack(anchor="w")
 
-        #pregunta 3
         tk.Label(frame_izq, text="¿Qué tan intensa te gusta tu bebida?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
         self.combo_int = ttk.Combobox(frame_izq, values=self.opciones_intensidad, width=50, state="readonly")
         self.combo_int.pack(anchor="w")
 
-        #pregunta 4
         tk.Label(frame_izq, text="¿Qué tipo de leche prefieres?", font=("Arial", 11, "bold"), bg=COLOR_FONDO).pack(anchor="w", pady=(10, 5))
         self.combo_leche = ttk.Combobox(frame_izq, values=self.opciones_leche, width=50, state="readonly")
         self.combo_leche.pack(anchor="w")
 
-        # Botones
+        # Botones Principales
         frame_btn = tk.Frame(frame_izq, bg=COLOR_FONDO)
         frame_btn.pack(pady=30, anchor="w")
         
@@ -94,19 +91,32 @@ class SistemaExpertoBebidas:
         tk.Button(frame_btn, text="LIMPIAR", bg="#D7CCC8", fg=COLOR_TEXTO, font=("Arial", 11), padx=15, pady=5, command=self.limpiar).pack(side=tk.LEFT)
 
 
-        #lado Derecho
+        # Frame Derecho
         frame_der = tk.Frame(self.root, bg="white", padx=30, pady=30, relief="raised", borderwidth=1)
         frame_der.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=20, pady=20)
 
         tk.Label(frame_der, text="RECOMENDACIÓN", font=("Helvetica", 16, "bold"), fg=COLOR_ACCENTO, bg="white").pack(pady=(10, 5))
         
-        #resultado
+        # Etiqueta para mostrar "Resultado 1 de 2"
+        self.lbl_contador = tk.Label(frame_der, text="", font=("Arial", 10), fg="gray", bg="white")
+        self.lbl_contador.pack()
+
+        # Resultado
         self.lbl_resultado = tk.Label(frame_der, text="...", font=("Arial", 14, "bold"), fg=COLOR_TEXTO, bg="white", wraplength=350)
         self.lbl_resultado.pack(pady=10)
 
-        #imagen
+        # Imagen
         self.lbl_imagen = tk.Label(frame_der, bg="white")
         self.lbl_imagen.pack(pady=10)
+
+        self.frame_nav = tk.Frame(frame_der, bg="white")
+        self.frame_nav.pack(pady=5)
+        
+        self.btn_anterior = tk.Button(self.frame_nav, text="< Anterior", state="disabled", command=self.mostrar_anterior)
+        self.btn_anterior.pack(side=tk.LEFT, padx=10)
+        
+        self.btn_siguiente = tk.Button(self.frame_nav, text="Siguiente >", state="disabled", command=self.mostrar_siguiente)
+        self.btn_siguiente.pack(side=tk.LEFT, padx=10)
 
         self.btn_explicacion = tk.Button(frame_der, text="¿Por qué esta bebida?", state="disabled", command=self.mostrar_explicacion)
         self.btn_explicacion.pack(pady=10)
@@ -114,7 +124,6 @@ class SistemaExpertoBebidas:
         self.lbl_explicacion = tk.Label(frame_der, text="", font=("Arial", 10, "italic"), fg="#5D4037", bg="white", wraplength=350)
         self.lbl_explicacion.pack(pady=5)
 
-    #Algoritmo de Búsqueda (Pattern Matching)
     def consultar(self):
         sabor = self.combo_sabor.get()
         temp = self.combo_temp.get()
@@ -126,29 +135,53 @@ class SistemaExpertoBebidas:
             return
 
         conocimiento = self.cargar_datos()
-        encontrado = False
 
+        self.resultados_encontrados = []
+        
         for regla in conocimiento:
             if (regla["Sabor"] == sabor and 
                 regla["Temperatura"] == temp and 
                 regla["Intensidad"] == intensidad and 
                 regla["Leche"] == leche):
                 
-                self.mostrar_resultado_en_interfaz(regla)
-                encontrado = True
-                break
+                self.resultados_encontrados.append(regla) 
+                # Es iterativo por que vuelve a llaamr a regla para ver si hay más coincidencias
         
-        if not encontrado:
-            respuesta = messagebox.askyesno("Sin conocimiento", "No sé qué bebida recomendar para esa combinación exact.\n\n¿Quieres enseñarme?")
+        # En caso de que si se encocntró respuesta
+        if len(self.resultados_encontrados) > 0:
+            self.indice_actual = 0
+            self.mostrar_resultado_actual()
+        else:
+            # En caso de no encontrar respuesta
+            respuesta = messagebox.askyesno("Sin conocimiento", "No sé qué bebida recomendar para esa combinación exacta.\n\n¿Quieres enseñarme?")
             if respuesta:
                 self.abrir_aprendizaje(sabor, temp, intensidad, leche)
 
-    def mostrar_resultado_en_interfaz(self, regla):
+    def mostrar_resultado_actual(self):
+        regla = self.resultados_encontrados[self.indice_actual]
+        total = len(self.resultados_encontrados)
+
+        # Actualizar textos e imagen
         self.lbl_resultado.config(text=regla["Diagnostico"])
         self.explicacion_pendiente = regla["Explicacion"]
-        self.lbl_explicacion.config(text="")
+        self.lbl_explicacion.config(text="") 
         self.btn_explicacion.config(state="normal")
         
+        
+        if total > 1:
+            self.lbl_contador.config(text=f"Resultado {self.indice_actual + 1} de {total}")
+        else:
+            self.lbl_contador.config(text="")
+
+        # Controlar botones de navegación
+        if total > 1:
+            self.btn_anterior.config(state="normal" if self.indice_actual > 0 else "disabled")
+            self.btn_siguiente.config(state="normal" if self.indice_actual < total - 1 else "disabled")
+        else:
+            self.btn_anterior.config(state="disabled")
+            self.btn_siguiente.config(state="disabled")
+
+        # Cargar imagen
         try:
             if os.path.exists(regla["Imagen"]):
                 img = Image.open(regla["Imagen"])
@@ -161,6 +194,16 @@ class SistemaExpertoBebidas:
         except:
             self.lbl_imagen.config(image='', text="(Error de imagen)")
 
+    def mostrar_siguiente(self):
+        if self.indice_actual < len(self.resultados_encontrados) - 1:
+            self.indice_actual += 1
+            self.mostrar_resultado_actual()
+
+    def mostrar_anterior(self):
+        if self.indice_actual > 0:
+            self.indice_actual -= 1
+            self.mostrar_resultado_actual()
+
     def mostrar_explicacion(self):
         self.lbl_explicacion.config(text=self.explicacion_pendiente)
 
@@ -172,7 +215,10 @@ class SistemaExpertoBebidas:
         self.lbl_resultado.config(text="...")
         self.lbl_imagen.config(image='', text="")
         self.lbl_explicacion.config(text="")
+        self.lbl_contador.config(text="")
         self.btn_explicacion.config(state="disabled")
+        self.btn_anterior.config(state="disabled")
+        self.btn_siguiente.config(state="disabled")
 
     def abrir_aprendizaje(self, s, t, i, l):
         vent = tk.Toplevel(self.root)
@@ -207,8 +253,9 @@ class SistemaExpertoBebidas:
             self.guardar_datos(nuevo)
             messagebox.showinfo("Éxito", "¡Gracias! Ahora soy más experto.")
             vent.destroy()
-            #Mostrar el resultado
-            self.mostrar_resultado_en_interfaz(nuevo)
+            
+            # Volver a consultar para que aparezca la nueva opción junto con las otras
+            self.consultar()
 
         tk.Button(vent, text="GUARDAR CONOCIMIENTO", bg=COLOR_ACCENTO, fg="white", command=guardar).pack(pady=20)
 
